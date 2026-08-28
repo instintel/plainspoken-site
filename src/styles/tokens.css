@@ -124,3 +124,24 @@ a {
   color: var(--color-dark-text);
 }
 .dark .eyebrow { color: var(--color-dark-accent); border-color: var(--color-dark-text); }
+.ps-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #17140F;
+  border-radius: 14px;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+.ps-mark__word {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  font-size: 1.35rem;
+  letter-spacing: 0.005em;
+  color: #F4EFE3;
+  white-space: nowrap;
+}
+.ps-mark__dot {
+  color: #E1A15A;
+  margin-left: -0.1em;
+}
