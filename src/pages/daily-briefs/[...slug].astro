@@ -15,7 +15,7 @@ const { Content } = await entry.render();
 ---
 <Base title={entry.data.title}>
   <article class="container prose" style="padding: var(--space-6) 0;">
-    <span class="eyebrow">Daily Brief · {entry.data.date.toDateString()}</span>
+    <span class="eyebrow">Daily Brief · {entry.data.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).replace(',', '')}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     <Content />
   </article>
