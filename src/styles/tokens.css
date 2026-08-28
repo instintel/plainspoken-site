@@ -1,0 +1,126 @@
+/*
+  Shared design tokens — derived from the institutional-content-engine's
+  design-language.md (card/carousel spec, house decision 24 Aug 2026).
+
+  That file was written for shareable social cards, not page layout — so
+  this extends it with page-level scaffolding (spacing scale, radii,
+  container widths) that the source doc doesn't define. When the card
+  spec and the site's needs diverge, the card spec still owns colour and
+  type; treat additions here as "reasonable defaults, revisit later."
+
+  Copy this file into both /ascend and /groundwork rather than sharing
+  it from one location — the two sites are meant to be independently
+  deployable, so nothing about breaking one should require untangling
+  the other.
+*/
+
+:root {
+  /* Light register — the default for both tracks */
+  --color-paper: #F4F1EA;
+  --color-raised: #FAF8F3;
+  --color-sunk: #EBE7DD;
+  --color-ink: #1C1A17;
+  --color-ink-70: #4A453E;
+  --color-ink-50: #6B655C;
+  --color-rule: #D8D2C6;
+  --color-brass: #8A5A1E;
+  --color-clay: #9A3324;
+  --color-forest: #3F6B4A;
+
+  /* Dark register — use sparingly (roughly a third of any set), not the default */
+  --color-dark-bg: #191712;
+  --color-dark-text: #E8E3D8;
+  --color-dark-muted: #9A9384;
+  --color-dark-accent: #C9922F;
+
+  /* Type — see README for font licensing/self-hosting notes.
+     Sentient (display serif) and Switzer (body) are Fontshare fonts;
+     JetBrains Mono is SIL-licensed. Fall back gracefully until the
+     actual font files are wired in. */
+  --font-display: 'Sentient', Georgia, 'Times New Roman', serif;
+  --font-body: 'Switzer', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* Page-level scaffolding — not in the source spec, added for site use */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 96px;
+
+  --container-max: 1120px;
+  --container-narrow: 680px; /* article/reading measure */
+  --radius: 4px;
+  --rule-weight: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-paper);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-2);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+  border-top: 2px solid var(--color-ink);
+  padding-top: var(--space-1);
+  display: inline-block;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+}
+
+.prose {
+  max-width: var(--container-narrow);
+}
+
+a {
+  color: var(--color-brass);
+}
+
+.figure-positive { color: var(--color-forest); }
+.figure-negative { color: var(--color-clay); }
+
+.card {
+  background: var(--color-raised);
+  border: var(--rule-weight) solid var(--color-rule);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+}
+
+.dark {
+  background: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+.dark .eyebrow { color: var(--color-dark-accent); border-color: var(--color-dark-text); }

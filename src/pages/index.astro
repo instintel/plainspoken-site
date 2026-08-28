@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const briefs = (await getCollection('daily-briefs')).filter((b) => !b.data.draft);
+const commentary = (await getCollection('commentary')).filter((c) => !c.data.draft);
+---
+<Base title="Home">
+  <section class="container" style="padding: var(--space-6) 0;">
+    <h1 class="display" style="font-size: 40px; max-width: 720px;">
+      Institutional-grade market intelligence, built for people who allocate capital.
+    </h1>
+    <p class="prose" style="color: var(--color-ink-70); font-size: 19px;">
+      PLAINspoken is the house track — daily briefs, deep commentary, and durable intelligence
+      reports for the sophisticated reader. This is a private build; nothing here is public yet.
+    </p>
+  </section>
+
+  <section class="container" style="padding-bottom: var(--space-6);">
+    <span class="eyebrow">Daily Briefs</span>
+    {briefs.length === 0 && (
+      <p style="color: var(--color-ink-50);">
+        No published briefs yet — this feed populates once the content engine writes
+        approved markdown files into <code>src/content/daily-briefs/</code>.
+      </p>
+    )}
+    <ul style="list-style: none; padding: 0;">
+      {briefs.map((b) => (
+        <li class="card" style="margin-bottom: var(--space-2);">
+          <a href={`/daily-briefs/${b.slug}/`}><strong>{b.data.title}</strong></a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="container" style="padding-bottom: var(--space-6);">
+    <span class="eyebrow">Commentary</span>
+    {commentary.length === 0 && (
+      <p style="color: var(--color-ink-50);">No published commentary yet.</p>
+    )}
+    <ul style="list-style: none; padding: 0;">
+      {commentary.map((c) => (
+        <li class="card" style="margin-bottom: var(--space-2);">
+          <a href={`/commentary/${c.slug}/`}><strong>{c.data.title}</strong></a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>
