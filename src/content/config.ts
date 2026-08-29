@@ -10,6 +10,7 @@ const dailyBriefs = defineCollection({
     title: z.string(),
     date: z.date(),
     summary: z.string().optional(),
+    image: z.string().optional(),
     draft: z.boolean().default(true), // keep true until the human approval gate clears it
   }),
 });

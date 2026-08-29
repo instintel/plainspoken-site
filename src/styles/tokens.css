@@ -143,3 +143,17 @@ a {
   color: #E1A15A;
   margin-left: -0.1em;
 }
+.lead-brief {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: var(--space-5);
+  align-items: start;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-rule);
+  margin-bottom: var(--space-4);
+}
+@media (max-width: 720px) {
+  .lead-brief {
+    grid-template-columns: 1fr;
+  }
+}
