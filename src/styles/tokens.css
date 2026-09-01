@@ -92,7 +92,7 @@ h1, h2, h3, .display {
   color: var(--color-brass);
   border-top: 2px solid var(--color-ink);
   padding-top: var(--space-1);
-  display: inline-block;
+  display: table;
 }
 
 .container {
