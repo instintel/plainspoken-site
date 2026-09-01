@@ -10,8 +10,7 @@ const secondary = rest.slice(0, 4);
 const commentary = (await getCollection('commentary')).filter((c) => !c.data.draft);
 ---
 <Base title="Home">
-  <section class="container" style="padding: var(--space-6) 0;">
-    <h1 class="display" style="font-size: 40px; max-width: 720px;">
+<section class="container" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">    <h1 class="display" style="font-size: 40px; max-width: 720px;">
       Institutional-grade market intelligence, built for people who allocate capital.
     </h1>
     <p class="prose" style="color: var(--color-ink-70); font-size: 19px;">
