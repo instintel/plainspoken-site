@@ -166,3 +166,14 @@ a {
   border-radius: 4px;
   border: 1px solid var(--color-rule);
 }
+.back-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-50);
+  text-decoration: none;
+}
+.back-link:hover {
+  color: var(--color-brass);
+}
