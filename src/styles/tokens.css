@@ -160,7 +160,7 @@ a {
 .prose img {
   display: block;
   width: 100%;
-  max-width: 480px;
+  max-width: 600px;
   height: auto;
   margin: var(--space-4) auto;
   border-radius: 4px;
