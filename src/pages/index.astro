@@ -10,10 +10,10 @@ const secondary = rest.slice(0, 4);
 const commentary = (await getCollection('commentary')).filter((c) => !c.data.draft);
 ---
 <Base title="Home">
-<section class="container" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">    <h1 class="display" style="font-size: 40px; max-width: 720px;">
-      Institutional-grade market intelligence, built for people who allocate capital.
+<section class="container" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">    <h1 class="display" style="font-size: 40px;">
+      Institutional-grade market intelligence for people who allocate capital
     </h1>
-    <p class="prose" style="color: var(--color-ink-70); font-size: 19px;">
+    <p class="prose" style="color: var(--color-ink-70); font-size: 19px; max-width: none;">
       PLAINspoken is the house track — daily briefs, deep commentary, and durable intelligence
       reports for the sophisticated reader. This is a private build; nothing here is public yet.
     </p>
