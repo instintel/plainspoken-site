@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allBriefs = (await getCollection('daily-briefs')).filter((b) => !b.data.draft);
+const briefs = allBriefs.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title="Daily Briefs — Archive">
+  <div class="container" style="padding-top: var(--space-4);">
+    <a href="/" class="back-link">← Back to Home</a>
+  </div>
+  <section class="container" style="padding: var(--space-5) 0 var(--space-6);">
+    <span class="eyebrow">Daily Briefs</span>
+    <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-4);">All Daily Briefs</h1>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      {briefs.map((b) => (
+        <li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-rule); display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-3);">
+          <a href={`/daily-briefs/${b.slug}/`} style="text-decoration: none; color: var(--color-ink); font-size: 18px; font-weight: 500;">
+            {b.data.title}
+          </a>
+          <span style="font-family: var(--font-mono); font-size: 13px; color: var(--color-ink-50); white-space: nowrap;">
+            {b.data.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>
