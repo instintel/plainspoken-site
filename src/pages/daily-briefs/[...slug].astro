@@ -28,7 +28,7 @@ const { Content } = await entry.render();
   <div class="container" style="padding-top: var(--space-4);">
     <a href="/" class="back-link">← Back to Daily Briefs</a>
   </div>
-  <article class="container prose" style="padding: var(--space-6) 0;">
+  <article class="container prose" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
     <span class="eyebrow">Daily Brief · {entry.data.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).replace(',', '')}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     <Content />
