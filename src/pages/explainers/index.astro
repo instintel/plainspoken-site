@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { EXPLAINER_TOPICS } from '../../site.config';
+import { breadcrumbLd, ldList } from '../../lib/seo';
+
+const explainers = (await getCollection('explainers'))
+  .filter((e) => !e.data.draft)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const order = [...EXPLAINER_TOPICS, 'More'];
+const groups = order
+  .map((topic) => ({
+    topic,
+    items: explainers.filter((e) => (EXPLAINER_TOPICS.includes(e.data.topic) ? e.data.topic : 'More') === topic),
+  }))
+  .filter((g) => g.items.length > 0);
+
+const description =
+  "Plain explanations of the things that move Malaysia's economy and your money: interest rates, fuel prices, the ringgit, jobs, savings and the Budget.";
+---
+<Base
+  title="Explainers: Malaysia's money, explained"
+  description={description}
+  jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Explainers', path: '/explainers/' }]))}
+>
+  <div class="container" style="padding-top: var(--space-4);">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Explainers</nav>
+  </div>
+  <section class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+    <span class="eyebrow">Explainers</span>
+    <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-2);">Malaysia's money, explained</h1>
+    <p style="color: var(--color-ink-70); margin: 0 0 var(--space-5);">{description} Each page answers one question first, then shows what it means for you.</p>
+
+    {groups.length === 0 && (
+      <p style="color: var(--color-ink-50);">The first explainers are on their way.</p>
+    )}
+
+    {groups.map((g) => (
+      <div class="explainer-topic">
+        <span class="eyebrow">{g.topic}</span>
+        <ul class="explainer-list">
+          {g.items.map((e) => (
+            <li>
+              <a href={`/explainers/${e.slug}/`}>{e.data.title}</a>
+              <p>{e.data.summary}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+</Base>

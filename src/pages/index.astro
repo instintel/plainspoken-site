@@ -8,6 +8,10 @@ const [lead, ...rest] = briefs;
 const secondary = rest.slice(0, 4);
 
 const commentary = (await getCollection('commentary')).filter((c) => !c.data.draft);
+const explainers = (await getCollection('explainers'))
+  .filter((e) => !e.data.draft)
+  .sort((a, b) => (b.data.lastmod ?? b.data.date).valueOf() - (a.data.lastmod ?? a.data.date).valueOf())
+  .slice(0, 6);
 
 // Only treat real paths/URLs as images ("No image" in frontmatter means none)
 const hasImage = (src?: string) => !!src && (src.startsWith('/') || src.startsWith('http'));
@@ -73,6 +77,23 @@ const shortDate = (d: Date) =>
       </div>
     )}
   </section>
+
+  {explainers.length > 0 && (
+    <section class="container" style="padding-bottom: var(--space-6);">
+      <span class="eyebrow">Explainers</span>
+      <ul class="explainer-list" style="max-width: var(--container-narrow);">
+        {explainers.map((e) => (
+          <li>
+            <a href={`/explainers/${e.slug}/`}>{e.data.title}</a>
+            <p>{e.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+      <div style="margin-top: var(--space-3);">
+        <a href="/explainers/" class="back-link">View all explainers →</a>
+      </div>
+    </section>
+  )}
 
   {commentary.length > 0 && (
     <section class="container" style="padding-bottom: var(--space-6);">

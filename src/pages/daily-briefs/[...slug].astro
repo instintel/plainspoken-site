@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { articleLd, breadcrumbLd, ldList } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const allBriefs = await getCollection('daily-briefs');
@@ -23,10 +24,35 @@ const { entry, next } = Astro.props as {
   next: CollectionEntry<'daily-briefs'> | null;
 };
 const { Content } = await entry.render();
+const path = `/daily-briefs/${entry.slug}/`;
+const image = entry.data.image && (entry.data.image.startsWith('/') || entry.data.image.startsWith('http')) ? entry.data.image : undefined;
 ---
-<Base title={entry.data.title}>
+<Base
+  title={entry.data.title}
+  description={entry.data.summary}
+  image={image}
+  ogType="article"
+  publishedTime={entry.data.date}
+  jsonLd={ldList(
+    articleLd({
+      kind: 'NewsArticle',
+      path,
+      title: entry.data.title,
+      description: entry.data.summary,
+      published: entry.data.date,
+      image,
+      author: entry.data.author,
+      keywords: entry.data.tags,
+    }),
+    breadcrumbLd([
+      { name: 'Home', path: '/' },
+      { name: 'Daily Briefs', path: '/daily-briefs/' },
+      { name: entry.data.title, path },
+    ]),
+  )}
+>
   <div class="container" style="padding-top: var(--space-4);">
-    <a href="/" class="back-link">← Back to Daily Briefs</a>
+    <a href="/daily-briefs/" class="back-link">← Back to Daily Briefs</a>
   </div>
   <article class="container prose" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
     <span class="eyebrow">Daily Brief · {entry.data.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).replace(',', '')}</span>

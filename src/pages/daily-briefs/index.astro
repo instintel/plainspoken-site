@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 const allBriefs = (await getCollection('daily-briefs')).filter((b) => !b.data.draft);
 const briefs = allBriefs.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
-<Base title="Daily Briefs — Archive">
+<Base title="Daily Briefs" description="Every Plainspoken Daily Brief: the one thing that moved Malaysia's economy and your money each morning, explained plainly.">
   <div class="container" style="padding-top: var(--space-4);">
     <a href="/" class="back-link">← Back to Home</a>
   </div>
