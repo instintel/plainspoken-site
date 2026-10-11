@@ -36,6 +36,28 @@ const explainers = defineCollection({
   }),
 });
 
+// Budget series (one section per year). Files live in a year folder:
+// src/content/budget/2027/income-tax.md is published at /budget/2027/income-tax/.
+// part 0 is the year's feature; parts 1, 2, 3... are the series, listed in that order.
+// Like explainers, a published file is never renamed: updates bump `lastmod`.
+const budget = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    lastmod: z.date().optional(),
+    summary: z.string(),
+    year: z.number(),
+    part: z.number().default(1),
+    kind: z.enum(['feature', 'guide']).default('guide'),
+    tags: z.array(z.string()).default([]),
+    author: z.string().optional(),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
+    draft: z.boolean().default(true),
+  }),
+});
+
 const commentary = defineCollection({
   // L2 — deep commentary, 500-1,200 words, one developed argument
   type: 'content',
@@ -61,6 +83,7 @@ const reports = defineCollection({
 export const collections = {
   'daily-briefs': dailyBriefs,
   explainers,
+  budget,
   commentary,
   reports,
 };

@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { budgetYears } from '../lib/budget';
 
 const allBriefs = (await getCollection('daily-briefs')).filter((b) => !b.data.draft);
 const briefs = allBriefs.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -12,6 +13,10 @@ const explainers = (await getCollection('explainers'))
   .filter((e) => !e.data.draft)
   .sort((a, b) => (b.data.lastmod ?? b.data.date).valueOf() - (a.data.lastmod ?? a.data.date).valueOf())
   .slice(0, 6);
+
+// The latest Budget series: its feature and the first few parts
+const [budgetLatest] = await budgetYears();
+const budgetPages = budgetLatest ? budgetLatest.pages.slice(0, 4) : [];
 
 // Only treat real paths/URLs as images ("No image" in frontmatter means none)
 const hasImage = (src?: string) => !!src && (src.startsWith('/') || src.startsWith('http'));
@@ -77,6 +82,23 @@ const shortDate = (d: Date) =>
       </div>
     )}
   </section>
+
+  {budgetLatest && (
+    <section class="container" style="padding-bottom: var(--space-6);">
+      <span class="eyebrow">Budget {budgetLatest.year}</span>
+      <ul class="explainer-list" style="max-width: var(--container-narrow);">
+        {budgetPages.map((p) => (
+          <li>
+            <a href={`/budget/${p.slug}/`}>{p.data.title}</a>
+            <p>{p.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+      <div style="margin-top: var(--space-3);">
+        <a href={`/budget/${budgetLatest.year}/`} class="back-link">All of Budget {budgetLatest.year} →</a>
+      </div>
+    </section>
+  )}
 
   {explainers.length > 0 && (
     <section class="container" style="padding-bottom: var(--space-6);">

@@ -25,6 +25,17 @@ export const GET: APIRoute = async () => {
     for (const b of briefs) {
       urls.push({ loc: absoluteUrl(`/daily-briefs/${b.slug}/`)!, lastmod: day(b.data.date) });
     }
+    const budget = (await getCollection('budget')).filter((p) => !p.data.draft);
+    if (budget.length) {
+      urls.push({ loc: absoluteUrl('/budget/')!, lastmod: latest(budget.map((p) => p.data.lastmod ?? p.data.date)) });
+      for (const year of [...new Set(budget.map((p) => p.data.year))]) {
+        const inYear = budget.filter((p) => p.data.year === year);
+        urls.push({ loc: absoluteUrl(`/budget/${year}/`)!, lastmod: latest(inYear.map((p) => p.data.lastmod ?? p.data.date)) });
+      }
+      for (const p of budget) {
+        urls.push({ loc: absoluteUrl(`/budget/${p.slug}/`)!, lastmod: day(p.data.lastmod ?? p.data.date) });
+      }
+    }
   }
 
   const body =

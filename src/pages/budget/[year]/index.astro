@@ -1,0 +1,52 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { breadcrumbLd, ldList } from '../../../lib/seo';
+import { budgetYears } from '../../../lib/budget';
+
+export async function getStaticPaths() {
+  const years = await budgetYears();
+  return years.map((y) => ({ params: { year: String(y.year) }, props: { year: y.year, pages: y.pages } }));
+}
+
+const { year, pages } = Astro.props;
+const feature = pages.find((p: any) => p.data.kind === 'feature');
+const series = pages.filter((p: any) => p !== feature);
+const description = `Budget ${year}, read for your money: the big picture first, then one page each on tax, pay, cash aid, loans, housing and side hustles.`;
+---
+<Base
+  title={`Budget ${year}, for your money`}
+  description={description}
+  jsonLd={ldList(breadcrumbLd([
+    { name: 'Home', path: '/' },
+    { name: 'Budget', path: '/budget/' },
+    { name: `Budget ${year}`, path: `/budget/${year}/` },
+  ]))}
+>
+  <div class="container" style="padding-top: var(--space-4);">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/budget/">Budget</a> › {year}</nav>
+  </div>
+  <section class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+    <span class="eyebrow">Budget {year}</span>
+    <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-2);">Budget {year}, for your money</h1>
+    <p style="color: var(--color-ink-70); margin: 0 0 var(--space-5);">{description}</p>
+    {feature && (
+      <div style="margin: 0 0 var(--space-3);">
+        <a href={`/budget/${feature.slug}/`} style="text-decoration: none; color: inherit;">
+          <h2 class="display" style="font-size: 26px; line-height: 1.25; margin: 0 0 var(--space-1);">{feature.data.title}</h2>
+        </a>
+        <p style="color: var(--color-ink-70); margin: 0;">{feature.data.summary}</p>
+      </div>
+    )}
+    <ul class="explainer-list">
+      {series.map((p: any) => (
+        <li>
+          <a href={`/budget/${p.slug}/`}>{p.data.title}</a>
+          <p>{p.data.summary}</p>
+        </li>
+      ))}
+    </ul>
+    <div style="margin-top: var(--space-5);">
+      <a href="/budget/" class="back-link">← All Budgets</a>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,100 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { articleLd, breadcrumbLd, ldList, longDate } from '../../lib/seo';
+import { budgetYears } from '../../lib/budget';
+
+export async function getStaticPaths() {
+  const all = await getCollection('budget');
+  const years = await budgetYears();
+  const briefs = (await getCollection('daily-briefs'))
+    .filter((b) => !b.data.draft)
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  return all.map((entry) => {
+    const series = years.find((y) => y.year === entry.data.year)?.pages ?? [];
+    const key = entry.data.tags[0];
+    // Daily Briefs that link to this page, or share its first tag
+    const usedIn = briefs
+      .filter((b) => b.body.includes(`/budget/${entry.slug}/`) || (key && b.data.tags.includes(key)))
+      .slice(0, 8);
+    return { params: { slug: entry.slug }, props: { entry, series, usedIn } };
+  });
+}
+
+const { entry, series, usedIn } = Astro.props as {
+  entry: CollectionEntry<'budget'>;
+  series: CollectionEntry<'budget'>[];
+  usedIn: CollectionEntry<'daily-briefs'>[];
+};
+const { Content } = await entry.render();
+const path = `/budget/${entry.slug}/`;
+const year = entry.data.year;
+const updated = entry.data.lastmod ?? entry.data.date;
+const image = entry.data.image && (entry.data.image.startsWith('/') || entry.data.image.startsWith('http')) ? entry.data.image : undefined;
+const others = series.filter((p) => p.slug !== entry.slug);
+const label = entry.data.kind === 'feature' ? `Budget ${year} · Feature` : `Budget ${year} · Part ${entry.data.part}`;
+---
+<Base
+  title={entry.data.title}
+  description={entry.data.summary}
+  image={image}
+  ogType="article"
+  publishedTime={entry.data.date}
+  modifiedTime={updated}
+  jsonLd={ldList(
+    articleLd({
+      kind: 'Article',
+      path,
+      title: entry.data.title,
+      description: entry.data.summary,
+      published: entry.data.date,
+      modified: updated,
+      image,
+      author: entry.data.author,
+      keywords: entry.data.tags,
+    }),
+    breadcrumbLd([
+      { name: 'Home', path: '/' },
+      { name: 'Budget', path: '/budget/' },
+      { name: `Budget ${year}`, path: `/budget/${year}/` },
+      { name: entry.data.title, path },
+    ]),
+  )}
+>
+  <div class="container" style="padding-top: var(--space-4);">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/budget/">Budget</a> › <a href={`/budget/${year}/`}>{year}</a></nav>
+  </div>
+  <article class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+    <span class="eyebrow">{label}</span>
+    <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
+    {image && <img src={image} alt={entry.data.imageAlt ?? ''} style="width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--color-rule); margin-bottom: var(--space-3);" />}
+    <Content />
+
+    {others.length > 0 && (
+      <section class="related">
+        <h2>More from Budget {year}</h2>
+        <ul>
+          {others.map((p) => (
+            <li><a href={`/budget/${p.slug}/`}>{p.data.title}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {usedIn.length > 0 && (
+      <section class="related">
+        <h2>In the Daily Brief</h2>
+        <ul>
+          {usedIn.map((b) => (
+            <li><a href={`/daily-briefs/${b.slug}/`}>{b.data.title}</a> <span class="meta-date">{longDate(b.data.date)}</span></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <div style="margin-top: var(--space-5);">
+      <a href={`/budget/${year}/`} class="back-link">← All of Budget {year}</a>
+    </div>
+  </article>
+</Base>

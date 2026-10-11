@@ -59,6 +59,7 @@ const path = Astro.url.pathname;
     <nav class="site-nav" aria-label="Sections">
       <a href="/daily-briefs/" aria-current={path.startsWith('/daily-briefs') ? 'page' : undefined}>Daily Briefs</a>
       <a href="/explainers/" aria-current={path.startsWith('/explainers') ? 'page' : undefined}>Explainers</a>
+      <a href="/budget/" aria-current={path.startsWith('/budget') ? 'page' : undefined}>Budget</a>
     </nav>
     <main>
       <slot />

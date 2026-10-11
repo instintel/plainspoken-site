@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import { breadcrumbLd, ldList } from '../../lib/seo';
+import { budgetYears } from '../../lib/budget';
+
+const years = await budgetYears();
+const [latest, ...earlier] = years;
+const feature = latest?.pages.find((p) => p.data.kind === 'feature');
+const series = latest?.pages.filter((p) => p !== feature) ?? [];
+
+const description =
+  "Malaysia's yearly Budget, read for your money: what changes for your tax, pay, savings, loans and home, and when each change starts.";
+---
+<Base
+  title="The Budget, for your money"
+  description={description}
+  jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Budget', path: '/budget/' }]))}
+>
+  <div class="container" style="padding-top: var(--space-4);">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Budget</nav>
+  </div>
+  <section class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+    <span class="eyebrow">Budget</span>
+    <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-2);">The Budget, for your money</h1>
+    <p style="color: var(--color-ink-70); margin: 0 0 var(--space-5);">{description}</p>
+
+    {!latest && <p style="color: var(--color-ink-50);">The first Budget series is on its way.</p>}
+
+    {latest && (
+      <div class="explainer-topic">
+        <span class="eyebrow">Budget {latest.year}</span>
+        {feature && (
+          <div style="margin: var(--space-2) 0 var(--space-3);">
+            <a href={`/budget/${feature.slug}/`} style="text-decoration: none; color: inherit;">
+              <h2 class="display" style="font-size: 26px; line-height: 1.25; margin: 0 0 var(--space-1);">{feature.data.title}</h2>
+            </a>
+            <p style="color: var(--color-ink-70); margin: 0;">{feature.data.summary}</p>
+          </div>
+        )}
+        {series.length > 0 && (
+          <ul class="explainer-list">
+            {series.map((p) => (
+              <li>
+                <a href={`/budget/${p.slug}/`}>{p.data.title}</a>
+                <p>{p.data.summary}</p>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    )}
+
+    {earlier.length > 0 && (
+      <section class="related">
+        <h2>Earlier Budgets</h2>
+        <ul>
+          {earlier.map((y) => (
+            <li><a href={`/budget/${y.year}/`}>Budget {y.year}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </section>
+</Base>
