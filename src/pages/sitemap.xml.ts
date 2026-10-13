@@ -18,6 +18,7 @@ export const GET: APIRoute = async () => {
 
     urls.push({ loc: absoluteUrl('/')!, lastmod: latest(briefs.map((b) => b.data.date)) });
     urls.push({ loc: absoluteUrl('/daily-briefs/')!, lastmod: latest(briefs.map((b) => b.data.date)) });
+    urls.push({ loc: absoluteUrl('/about/')! });
     urls.push({ loc: absoluteUrl('/explainers/')!, lastmod: latest(explainers.map((e) => e.data.lastmod ?? e.data.date)) });
     for (const e of explainers) {
       urls.push({ loc: absoluteUrl(`/explainers/${e.slug}/`)!, lastmod: day(e.data.lastmod ?? e.data.date) });

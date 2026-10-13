@@ -65,7 +65,8 @@ const path = Astro.url.pathname;
       <slot />
     </main>
     <footer class="container" style="padding: var(--space-5) var(--space-3); color: var(--color-ink-50); font-size: 14px;">
-      {SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build — not for public distribution.'}
+      <a href="/about/" class="footer-link">About Plainspoken</a>
+      <span style="display: block; margin-top: var(--space-1);">{SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build — not for public distribution.'}</span>
     </footer>
   </body>
 </html>

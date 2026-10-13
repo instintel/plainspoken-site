@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import { getEntry } from 'astro:content';
+import { SITE } from '../site.config';
+import { breadcrumbLd, ldList } from '../lib/seo';
+
+// Link "the OPR" to its explainer only while that explainer is published
+const opr = await getEntry('explainers', 'opr');
+const oprUrl = opr && !opr.data.draft ? '/explainers/opr/' : undefined;
+const description =
+  "Why Plainspoken exists and how it works: one story a morning on Malaysia's economy, explained in plain English.";
+---
+<Base
+  title="About"
+  description={description}
+  jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'About', path: '/about/' }]))}
+>
+  <div class="container" style="padding-top: var(--space-4);">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › About</nav>
+  </div>
+  <article class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+    <span class="eyebrow">About</span>
+    <h1 class="display" style="font-size: 32px;">About Plainspoken</h1>
+
+    <p>The idea behind Plainspoken was conceived out of necessity rather than a vision. A lot of us get our news between a TikTok and a Grab ride. Our parents had the morning papers, while we're the social media generation. We have a phone full of notifications and distractions, but not much time to work out which ones actually matter for our money. Also, most economic matters simply don't fit into one-line posts.</p>
+
+    <p>So every working morning, we pick a central narrative (on developments over the past 24 hours) that matters most for Malaysia's economy, and explain it in plain English. We also publish occasional commentaries on the bigger economic themes as they crop up. We start from official sources, like Bank Negara Malaysia (BNM) and the Ministry of Finance (MOF), then the major news wires. AI-assisted, but human-edited and with our own take! You get what happened, what it means for your money (be it savings or long-term investment portfolios), and what's coming next. All within a 3–5 minute read. Never longer than what it takes for your morning caffeine hit.</p>
+
+    <p>Nobody learns the economy in one read. As Will Durant summed up Aristotle: "We are what we repeatedly do. Excellence, then, is not an act, but a habit." So read a little each morning, and the narratives start to make sense on their own.</p>
+
+    <p>You don't need to know what {oprUrl ? <a href={oprUrl}>the OPR</a> : 'the OPR'} is. We'll explain it when it matters.</p>
+
+    <p>We're called Plainspoken, so there's nowhere to hide. If a sentence needs a dictionary, we got it wrong. {SITE.askUrl ? <a href={SITE.askUrl} rel="noopener">Tell us</a> : 'Tell us'} and we'll have another go.</p>
+  </article>
+</Base>
