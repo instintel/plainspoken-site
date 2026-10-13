@@ -224,6 +224,7 @@ a:hover { color: var(--color-accent); }
 .panel-card--text { grid-template-columns: 1fr; }
 .panel-card:hover .panel-card__title { color: var(--color-accent); }
 
+.home-main { padding-top: var(--space-5); padding-bottom: var(--space-6); }
 .home-section { padding-bottom: var(--space-6); }
 
 .prose img {
@@ -299,7 +300,7 @@ a:hover { color: var(--color-accent); }
 
 @media (max-width: 600px) {
   .container { padding-left: 20px; padding-right: 20px; }
-  .site-header__inner { padding: 16px 20px; }
+  .site-header__inner { padding: 14px 20px 12px; }
   .ps-mark__word { font-size: 28px; }
   .ps-mark__square { width: 11px; height: 11px; }
   .site-nav { gap: 14px; flex-wrap: nowrap; overflow-x: auto; width: 100%; }
@@ -308,7 +309,9 @@ a:hover { color: var(--color-accent); }
   .brief-card__title { font-size: 17px; }
   .panel-grid { grid-template-columns: 1fr; gap: 12px; }
   .lead-brief { padding: 20px; gap: 16px; margin: 0 -20px 32px; }
+  .home-main { padding-top: 0; padding-bottom: 32px; }
   .home-section { padding-bottom: 32px; }
+  .lead-brief { margin-top: 0; border-top: 0; }
   .section-head { margin-bottom: 14px; }
   .site-header__inner { gap: 10px; }
   .brief-card { gap: 6px; }
