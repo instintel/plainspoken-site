@@ -255,3 +255,8 @@ a {
 
 .footer-link { color: var(--color-ink-70); text-decoration: none; border-bottom: 1px solid var(--color-rule); }
 .footer-link:hover { color: var(--color-brass); border-bottom-color: var(--color-brass); }
+
+@media (max-width: 480px) {
+  .site-nav { gap: 12px; flex-wrap: wrap; padding-left: 8px; padding-right: 8px; }
+  .site-nav a { font-size: 11px; letter-spacing: 0.06em; }
+}

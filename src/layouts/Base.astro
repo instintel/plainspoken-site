@@ -57,15 +57,17 @@ const path = Astro.url.pathname;
       <a href="/" class="ps-mark"><span class="ps-mark__word">plainspoken<span class="ps-mark__dot">.</span></span></a>
     </header>
     <nav class="site-nav" aria-label="Sections">
+      <a href="/" aria-current={path === '/' ? 'page' : undefined}>Home</a>
       <a href="/daily-briefs/" aria-current={path.startsWith('/daily-briefs') ? 'page' : undefined}>Daily Briefs</a>
       <a href="/explainers/" aria-current={path.startsWith('/explainers') ? 'page' : undefined}>Explainers</a>
       <a href="/budget/" aria-current={path.startsWith('/budget') ? 'page' : undefined}>Budget</a>
+      <a href="/about/" aria-current={path.startsWith('/about') ? 'page' : undefined}>About Us</a>
     </nav>
     <main>
       <slot />
     </main>
     <footer class="container" style="padding: var(--space-5) var(--space-3); color: var(--color-ink-50); font-size: 14px;">
-      <a href="/about/" class="footer-link">About Plainspoken</a>
+      <a href="/about/" class="footer-link">About Us</a>
       <span style="display: block; margin-top: var(--space-1);">{SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build — not for public distribution.'}</span>
     </footer>
   </body>
