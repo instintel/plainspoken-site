@@ -17,7 +17,7 @@ const metaDescription = description ?? SITE.defaultDescription;
 const canonical = absoluteUrl(Astro.url.pathname);
 const hasImage = !!image && (image.startsWith('/') || image.startsWith('http'));
 const imageUrl = hasImage ? (image!.startsWith('http') ? image : absoluteUrl(image!)) : undefined;
-const pageTitle = title === 'Home' ? `${SITE.name}: Malaysia's money, plainly explained` : `${title} | ${SITE.name}`;
+const pageTitle = title === 'Home' ? `${SITE.name}: From Wall Street to Wallet Street, Making Sens of the World's Money` : `${title} | ${SITE.name}`;
 const ldBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 const path = Astro.url.pathname;
 ---
@@ -69,7 +69,7 @@ const path = Astro.url.pathname;
     <footer class="site-footer">
       <div class="site-footer__inner">
         <a href="/about/" class="footer-link">About Us</a>
-        <span>Malaysia's money, plainly explained.</span>
+        <span>From Wall Street to Wallet Street, Making Sens of the World's Money.</span>
         <span>{SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build, not for public distribution.'}</span>
       </div>
     </footer>
