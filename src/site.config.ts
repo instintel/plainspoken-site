@@ -13,7 +13,7 @@ export const SITE = {
   locale: 'en_MY',
   // Link to the question form (Google Form, Tally, etc.). While empty, the "Got something you
   // want explained?" line under briefs and explainers stays hidden.
-  askUrl: '',
+  askUrl: 'https://forms.gle/R5doVGJRa4CfSttV8',
   defaultDescription:
     "Malaysia's economy and your money, explained plainly: a daily brief on what moved and why it matters, plus explainers that answer the basics.",
 };
