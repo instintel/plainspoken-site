@@ -300,12 +300,12 @@ a:hover { color: var(--color-accent); }
 
 @media (max-width: 600px) {
   .container { padding-left: 20px; padding-right: 20px; }
-  .site-header__inner { padding: 14px 20px 12px; }
-  /* Phone: the red square becomes a full stop after the wordmark, so the wordmark and the nav share one left edge */
-  .ps-mark { flex-direction: row-reverse; justify-content: flex-end; align-items: flex-end; gap: 6px; }
-  .ps-mark__word { font-size: 28px; }
-  .ps-mark__square { width: 9px; height: 9px; margin-bottom: 3px; }
-  .site-nav { gap: 14px; flex-wrap: nowrap; overflow-x: auto; width: 100%; }
+  .ps-mark__word { font-size: 32px; }
+  .ps-mark__square { width: 12px; height: 12px; }
+  /* Phone header: logo centred, hairline, then the five sections spread across the full width */
+  .site-header__inner { flex-direction: column; align-items: center; gap: 12px; padding: 14px 20px 10px; }
+  .ps-mark { justify-content: center; }
+  .site-nav { gap: 0; flex-wrap: nowrap; justify-content: space-between; width: 100%; border-top: 1px solid var(--color-rule); padding-top: 10px; }
   .site-nav a { font-size: 13px; white-space: nowrap; }
   .brief-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 16px; }
   .brief-card__title { font-size: 17px; }
@@ -315,7 +315,6 @@ a:hover { color: var(--color-accent); }
   .home-section { padding-bottom: 32px; }
   .lead-brief { margin-top: 0; border-top: 0; }
   .section-head { margin-bottom: 14px; }
-  .site-header__inner { gap: 8px; }
   .brief-card { gap: 6px; }
   .ask-block { margin-top: 32px; padding: 20px; }
   .explainer-list li { padding: 12px 0; }
