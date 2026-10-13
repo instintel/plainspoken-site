@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import AskBlock from '../../components/AskBlock.astro';
 import { articleLd, breadcrumbLd, ldList } from '../../lib/seo';
 
 export async function getStaticPaths() {
@@ -58,6 +59,7 @@ const image = entry.data.image && (entry.data.image.startsWith('/') || entry.dat
     <span class="eyebrow">Daily Brief · {entry.data.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).replace(',', '')}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     <Content />
+    <AskBlock />
 
     {next && (
       <div style="margin-top: var(--space-5); padding-top: var(--space-3); border-top: 1px solid var(--color-rule);">

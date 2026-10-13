@@ -1,6 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import AskBlock from '../../components/AskBlock.astro';
 import { articleLd, breadcrumbLd, ldList, longDate } from '../../lib/seo';
 
 export async function getStaticPaths() {
@@ -65,6 +66,7 @@ const updated = entry.data.lastmod ?? entry.data.date;
     <span class="eyebrow">Explainer · {entry.data.topic}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     <Content />
+    <AskBlock />
 
     {usedIn.length > 0 && (
       <section class="related">

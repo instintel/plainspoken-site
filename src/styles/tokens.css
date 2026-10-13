@@ -242,3 +242,13 @@ a {
 .related h2 { font-size: 20px; }
 .related ul { padding-left: 1.1em; margin: 0; }
 .related li { margin-bottom: 6px; }
+
+/* "Got something you want explained?" line under briefs and explainers */
+.ask-block {
+  margin-top: var(--space-5);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-raised);
+  border-left: 3px solid var(--color-brass);
+  border-radius: var(--radius);
+}
+.ask-block p { margin: 0; color: var(--color-ink-70); font-size: 16px; }
