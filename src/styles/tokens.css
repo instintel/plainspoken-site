@@ -306,12 +306,21 @@ a:hover { color: var(--color-accent); }
   .site-nav a { font-size: 13px; white-space: nowrap; }
   .brief-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 16px; }
   .brief-card__title { font-size: 17px; }
-  .panel-grid { grid-template-columns: 1fr; }
-  .lead-brief { padding: 24px; gap: 24px; margin-left: -20px; margin-right: -20px; }
-  .lead-brief__title { font-size: 32px; }
+  .panel-grid { grid-template-columns: 1fr; gap: 12px; }
+  .lead-brief { padding: 20px; gap: 16px; margin: 0 -20px 32px; }
+  .home-section { padding-bottom: 32px; }
+  .section-head { margin-bottom: 14px; }
+  .site-header__inner { gap: 10px; }
+  .brief-card { gap: 6px; }
+  .ask-block { margin-top: 32px; padding: 20px; }
+  .explainer-list li { padding: 12px 0; }
+  .site-footer { margin-top: 16px; }
+  .site-footer__inner { padding: 20px; gap: 12px; }
+  .lead-brief__title { font-size: 30px; }
+  .lead-brief__summary { font-size: 16px; }
   .panel-card { grid-template-columns: 2fr 3fr; }
-  .panel-card img { min-height: 120px; }
-  .panel-card__title { font-size: 19px; padding: 16px; }
+  .panel-card img { min-height: 88px; }
+  .panel-card__title { font-size: 17px; padding: 12px 14px; }
   .ask-block p { font-size: 18px; }
 }
 
