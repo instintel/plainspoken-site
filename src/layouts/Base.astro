@@ -48,27 +48,30 @@ const path = Astro.url.pathname;
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-    <link href="https://api.fontshare.com/v2/css?f[]=sentient@400,500&f[]=switzer@400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="container site-header">
-      <a href="/" class="ps-mark"><span class="ps-mark__word">plainspoken<span class="ps-mark__dot">.</span></span></a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="/" class="ps-mark" aria-label="Plainspoken home"><span class="ps-mark__square" aria-hidden="true"></span><span class="ps-mark__word">Plainspoken</span></a>
+        <nav class="site-nav" aria-label="Sections">
+          <a href="/" aria-current={path === '/' ? 'page' : undefined}>Home</a>
+          <a href="/daily-briefs/" aria-current={path.startsWith('/daily-briefs') ? 'page' : undefined}>Daily Briefs</a>
+          <a href="/explainers/" aria-current={path.startsWith('/explainers') ? 'page' : undefined}>Explainers</a>
+          <a href="/budget/" aria-current={path.startsWith('/budget') ? 'page' : undefined}>Budget</a>
+          <a href="/about/" aria-current={path.startsWith('/about') ? 'page' : undefined}>About Us</a>
+        </nav>
+      </div>
     </header>
-    <nav class="site-nav" aria-label="Sections">
-      <a href="/" aria-current={path === '/' ? 'page' : undefined}>Home</a>
-      <a href="/daily-briefs/" aria-current={path.startsWith('/daily-briefs') ? 'page' : undefined}>Daily Briefs</a>
-      <a href="/explainers/" aria-current={path.startsWith('/explainers') ? 'page' : undefined}>Explainers</a>
-      <a href="/budget/" aria-current={path.startsWith('/budget') ? 'page' : undefined}>Budget</a>
-      <a href="/about/" aria-current={path.startsWith('/about') ? 'page' : undefined}>About Us</a>
-    </nav>
     <main>
       <slot />
     </main>
-    <footer class="container" style="padding: var(--space-5) var(--space-3); color: var(--color-ink-50); font-size: 14px;">
-      <a href="/about/" class="footer-link">About Us</a>
-      <span style="display: block; margin-top: var(--space-1);">{SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build — not for public distribution.'}</span>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <a href="/about/" class="footer-link">About Us</a>
+        <span>Malaysia's money, plainly explained.</span>
+        <span>{SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build, not for public distribution.'}</span>
+      </div>
     </footer>
   </body>
 </html>
