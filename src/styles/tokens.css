@@ -306,8 +306,8 @@ a:hover { color: var(--color-accent); }
   gap: 12px 12px;
 }
 .ps-mark--small { gap: 6px; align-items: center; }
-.ps-mark--small .ps-mark__word { font-size: 14px; letter-spacing: 0; }
-.ps-mark--small .ps-mark__square { width: 6px; height: 6px; }
+.ps-mark--small .ps-mark__word { font-size: 16px; letter-spacing: 0; }
+.ps-mark--small .ps-mark__square { width: 7px; height: 7px; }
 .site-footer__tagline { padding-left: 12px; border-left: 1px solid var(--color-rule); line-height: 1.4; }
 .site-footer__copy { margin-left: 0; }
 .footer-link { color: var(--color-ink-50); }
