@@ -297,7 +297,7 @@ a:hover { color: var(--color-accent); }
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 28px var(--space-3);
-  font-size: 14px;
+  font-size: 15px;
   color: var(--color-ink-50);
   display: flex;
   flex-wrap: wrap;
