@@ -14,7 +14,7 @@ const { entry } = Astro.props as { entry: CollectionEntry<'commentary'> };
 const { Content } = await entry.render();
 ---
 <Base title={entry.data.title}>
-  <article class="container prose" style="padding: var(--space-6) 0;">
+  <article class="container prose prose--article" style="padding: var(--space-6) 0;">
     <span class="eyebrow">Commentary · {entry.data.date.toDateString()}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     <Content />

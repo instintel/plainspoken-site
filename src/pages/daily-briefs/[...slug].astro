@@ -55,7 +55,7 @@ const image = entry.data.image && (entry.data.image.startsWith('/') || entry.dat
   <div class="container" style="padding-top: var(--space-4);">
     <a href="/daily-briefs/" class="back-link">← Back to Daily Briefs</a>
   </div>
-  <article class="container prose" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+  <article class="container prose prose--article" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
     <span class="eyebrow">Daily Brief · {entry.data.date.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     <Content />

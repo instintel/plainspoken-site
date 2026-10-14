@@ -65,7 +65,7 @@ const label = entry.data.kind === 'feature' ? `Budget ${year} · Feature` : `Bud
   <div class="container" style="padding-top: var(--space-4);">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/budget/">Budget</a> › <a href={`/budget/${year}/`}>{year}</a></nav>
   </div>
-  <article class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+  <article class="container prose prose--article" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
     <span class="eyebrow">{label}</span>
     <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
     {image && <img src={image} alt={entry.data.imageAlt ?? ''} style="width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--color-rule); margin-bottom: var(--space-3);" />}

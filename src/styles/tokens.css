@@ -238,6 +238,9 @@ a:hover { color: var(--color-accent); }
   border: 1px solid var(--color-rule);
 }
 .prose h2 { font-size: 26px; margin-top: var(--space-5); }
+/* Articles: justified body text */
+.prose--article p, .prose--article li { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
+.prose--article .meta-date, .prose--article .crumbs, .prose--article .ask-block p { text-align: left; }
 
 .back-link {
   display: inline-block;
@@ -276,14 +279,17 @@ a:hover { color: var(--color-accent); }
 .ask-block {
   margin-top: var(--space-5);
   background: var(--color-raised);
-  padding: 24px 28px;
+  padding: 28px 32px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-2);
+  gap: 28px;
 }
-.ask-block p { margin: 0; font-family: var(--font-display); font-size: 20px; line-height: 1.35; }
+.ask-block p { margin: 0; flex: 1; font-family: var(--font-display); font-size: 20px; line-height: 1.3; text-wrap: balance; }
+.ask-block .button { align-self: center; white-space: nowrap; }
+.ask-block::before { display: none; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--color-rule); margin-top: var(--space-4); }
@@ -319,7 +325,9 @@ a:hover { color: var(--color-accent); }
   .lead-brief { margin-top: 0; border-top: 0; }
   .section-head { margin-bottom: 14px; }
   .brief-card { gap: 6px; }
-  .ask-block { margin-top: 32px; padding: 20px; }
+  .ask-block { margin-top: 32px; padding: 28px 20px; flex-direction: column; align-items: center; text-align: center; gap: 16px; }
+  .ask-block::before { display: block; content: "Ask Plainspoken"; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); }
+  .ask-block .button { margin-top: 4px; }
   .explainer-list li { padding: 12px 0; }
   .site-footer { margin-top: 16px; }
   .site-footer__inner { padding: 20px; gap: 12px; }
@@ -328,7 +336,8 @@ a:hover { color: var(--color-accent); }
   .panel-card { grid-template-columns: 2fr 3fr; }
   .panel-card img { min-height: 88px; }
   .panel-card__title { font-size: 17px; padding: 12px 14px; }
-  .ask-block p { font-size: 18px; }
+  .ask-block p { font-size: 19px; max-width: 26ch; flex: none; }
+  .prose--article .ask-block p { text-align: center; }
 }
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
