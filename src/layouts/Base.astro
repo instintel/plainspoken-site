@@ -71,9 +71,9 @@ const path = Astro.url.pathname;
     </main>
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <a href="/about/" class="footer-link">About Us</a>
-        <span>From Wall Street to Wallet Street, Making Sens of the World's Money.</span>
-        <span>{SITE.indexable ? `© ${new Date().getFullYear()} ${SITE.name}` : 'Private build, not for public distribution.'}</span>
+        <a href="/" class="ps-mark ps-mark--small" aria-label="Plainspoken home"><span class="ps-mark__square" aria-hidden="true"></span><span class="ps-mark__word">Plainspoken</span></a>
+        <span class="site-footer__tagline">From Wall Street to Wallet Street, Making Sens of the World's Money.</span>
+        {SITE.indexable && <span class="site-footer__copy">{`© ${new Date().getFullYear()} ${SITE.name}`}</span>}
       </div>
     </footer>
   </body>
