@@ -338,8 +338,9 @@ a:hover { color: var(--color-accent); }
   .explainer-list li { padding: 12px 0; }
   .site-footer { margin-top: 16px; }
   .site-footer__inner { padding: 22px 16px; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 0 14px; }
-  .ps-mark--small .ps-mark__word { font-size: clamp(10.5px, 3vw, 12px); }
-  .ps-mark--small .ps-mark__square { width: 5px; height: 5px; }
+  .ps-mark--small { gap: 7px; }
+  .ps-mark--small .ps-mark__word { font-size: clamp(20px, 6vw, 26px); }
+  .ps-mark--small .ps-mark__square { width: 9px; height: 9px; }
   .site-footer__tagline { padding-left: 10px; font-size: clamp(10.5px, 3vw, 12px); line-height: 1.4; text-align: left; flex: 0 0 auto; }
   .site-footer__tagline .tl { display: block; white-space: nowrap; }
   .site-footer__copy { margin-left: 0; }
@@ -355,7 +356,7 @@ a:hover { color: var(--color-accent); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
 /* Very small phones: stack the footer logo above the tagline */
-@media (max-width: 340px) {
+@media (max-width: 350px) {
   .site-footer__inner { flex-direction: column; gap: 8px; }
   .site-footer__tagline { padding-left: 0; border-left: 0; text-align: center; }
 }
