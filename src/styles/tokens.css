@@ -83,6 +83,8 @@ a:hover { color: var(--color-accent); }
   padding-top: 12px;
   display: block;
 }
+/* Article header: room between the date line and the title */
+.eyebrow + h1.display { margin-top: 18px; line-height: 1.2; }
 /* Label inside a panel: red, no rule */
 .eyebrow--accent { color: var(--color-accent); border-top: none; padding-top: 0; }
 
@@ -300,6 +302,7 @@ a:hover { color: var(--color-accent); }
 
 @media (max-width: 600px) {
   .container { padding-left: 20px; padding-right: 20px; }
+  .eyebrow + h1.display { margin-top: 14px; }
   .ps-mark__word { font-size: 32px; }
   .ps-mark__square { width: 12px; height: 12px; }
   /* Phone header: logo centred, hairline, then the five sections spread across the full width */
