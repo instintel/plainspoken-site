@@ -1,7 +1,8 @@
 ---
 title: "What the OPR is, and what it does to your loan"
+term: "OPR (Overnight Policy Rate)"
 date: 2026-10-09
-lastmod: 2026-10-09
+lastmod: 2026-10-17
 summary: "The OPR is the main interest rate Bank Negara Malaysia sets. When it moves, the rate on a floating-rate loan moves with it."
 topic: "Interest rates and loans"
 tags: ["opr", "overnight policy rate", "bank negara malaysia", "home loan", "interest rates"]
@@ -10,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 9, 2026*
+*Updated Oct 17, 2026*
 
 The OPR, short for Overnight Policy Rate, is the main interest rate Bank Negara Malaysia (BNM) sets, and it shapes what borrowing costs across Malaysia. When BNM moves it, banks change the rate on floating-rate loans to match, so the monthly instalment on that kind of loan goes up or down with it.
 
@@ -26,7 +27,7 @@ Every day some banks finish with spare cash while others come up short, so they 
 
 ## If your loan is floating, the OPR is built into it.
 
-Since Aug 1, 2022, new floating-rate loans to individuals, and loans refinanced after that date, are priced off something called the Standardised Base Rate (SBR). BNM tied the SBR to the OPR alone, so the SBR only changes when the OPR changes. Your bank then adds its own margin on top, for things like its costs and how risky it thinks lending to you is.
+Since Aug 1, 2022, new floating-rate loans to retail customers like you, and loans refinanced after that date, are priced off something called the Standardised Base Rate (SBR). BNM tied the SBR to the OPR alone, so the SBR only changes when the OPR changes. Your bank then adds its own margin on top, for things like its costs and how risky it thinks lending to you is.
 
 Older floating-rate loans still run on the bank's Base Rate or Base Lending Rate. Since Aug 2022, those move exactly in step with the SBR too. So once the OPR moves, the rate on a floating-rate loan follows, and so does its monthly instalment.
 
@@ -36,7 +37,7 @@ Savings work differently too. What a bank pays on your savings account or fixed 
 
 ## The OPR has been 2.75% since July 2025.
 
-BNM cut the OPR from 3.00% to 2.75% on July 9, 2025. It kept it at 2.75% at every meeting after that, most recently on Sep 3, 2026. So 2.75% is the OPR as at Oct 9, 2026.
+BNM cut the OPR from 3.00% to 2.75% on July 9, 2025. It kept it at 2.75% at every meeting after that, most recently on Sep 3, 2026. So 2.75% is the OPR as at Oct 17, 2026.
 
 ## The next decision is on Nov 5, 2026.
 

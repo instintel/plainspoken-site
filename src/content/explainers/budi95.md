@@ -1,5 +1,6 @@
 ---
 title: "What BUDI95 is, and what it does to your petrol bill"
+term: "BUDI95"
 date: 2026-10-15
 lastmod: 2026-10-15
 summary: "BUDI95 lets eligible Malaysians buy RON95 petrol at RM1.99 a litre, up to a monthly limit. The government pays the rest of the price."

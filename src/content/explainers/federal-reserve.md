@@ -1,5 +1,6 @@
 ---
 title: "What the Fed is, and why its rate moves the ringgit"
+term: "Federal Reserve (the Fed)"
 date: 2026-10-15
 lastmod: 2026-10-15
 summary: "The Fed is the US central bank. It sets the main US interest rate, which can move the US dollar against the ringgit."

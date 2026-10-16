@@ -25,6 +25,9 @@ const explainers = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
+    // Short glossary name for the A to Z list on /explainers/ ("OPR (Overnight Policy Rate)").
+    // Optional: when missing, the hub derives one from the title.
+    term: z.string().optional(),
     date: z.date(),
     lastmod: z.date().optional(),
     summary: z.string(),
