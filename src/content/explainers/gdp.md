@@ -1,6 +1,6 @@
 ---
 title: "What Malaysia's GDP is, and what its growth rate means"
-term: "GDP (gross domestic product)"
+term: "GDP (Gross Domestic Product)"
 date: 2026-10-17
 lastmod: 2026-10-17
 summary: "Malaysia's GDP is the total value of everything produced in the country. Its growth rate shows how fast the economy is getting bigger."
