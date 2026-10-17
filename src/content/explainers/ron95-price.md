@@ -1,5 +1,6 @@
 ---
 title: "What the RON95 price is, and why it changes every week"
+term: "RON95 price"
 date: 2026-10-15
 lastmod: 2026-10-15
 summary: "The RON95 price is the full price of a litre of RON95 petrol, which MOF resets every week. BUDI95 users pay RM1.99 instead."

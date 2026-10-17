@@ -1,5 +1,6 @@
 ---
 title: "What moves the ringgit, and what it does to your money"
+term: "Ringgit"
 date: 2026-10-15
 lastmod: 2026-10-15
 summary: "The ringgit's value is how many ringgit one US dollar costs. A stronger ringgit makes anything priced in US dollars cheaper for you."
