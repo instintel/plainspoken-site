@@ -8,8 +8,8 @@
 
 export const SITE = {
   name: 'Plainspoken',
-  siteUrl: '',
-  indexable: false,
+  siteUrl: 'https://plainspoken.my',
+  indexable: true,
   locale: 'en_MY',
   // Link to the question form (Google Form, Tally, etc.). While empty, the "Got something you
   // want explained?" line under briefs and explainers stays hidden.
