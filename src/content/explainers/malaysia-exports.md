@@ -1,5 +1,5 @@
 ---
-title: "What Malaysia's exports figure is, and why it matters to you"
+title: "What Malaysia's Exports Figure Is, And Why It Matters To You"
 term: "Malaysia exports"
 date: 2026-10-21
 lastmod: 2026-10-21
@@ -17,33 +17,33 @@ Malaysia's exports figure is the total value of the goods the country sells abro
 
 Exports are money that overseas buyers pay Malaysian firms. A bigger figure means more money coming in from abroad.
 
-## DOSM publishes the figure once a month, in the middle of the next month.
+## DOSM Publishes The Figure Once A Month, In The Middle Of The Next Month.
 
 August's figure came out on Sep 18, 2026, and September's on Oct 19. Each release also gives imports, which are the goods Malaysia buys from abroad.
 
 Exports are made up of two kinds of goods: those made in Malaysia, and re-exports, which are goods that came in from abroad and went out again.
 
-## Electrical and electronic goods are the biggest part.
+## Electrical And Electronic Goods Are The Biggest Part.
 
 They are called E&E products. In 2025 they made up 44.3% of Malaysia's exports, or RM711.61 billion, according to the Ministry of Investment, Trade and Industry (MITI). In August 2026 the share was 48.4%, DOSM's bulletin shows, and DOSM said that month's growth came mainly from higher E&E shipments.
 
-## Exports minus imports gives the trade surplus.
+## Exports Minus Imports Gives The Trade Surplus.
 
 A surplus means Malaysia sold more abroad than it bought. September 2026 was the 77th monthly surplus in a row, since May 2020, at RM33.7 billion. Imports that month were RM181.4 billion. MITI counts 2025 as the 28th year in a row with a yearly surplus.
 
-## What it means for your money.
+## What It Means For Your Money.
 
 The figure feeds into growth. OCBC said strong September exports could push growth for July to September above the advance estimate of 5.3%. That growth rate is [GDP](/explainers/gdp/), the measure of how much the whole economy produces.
 
 The figure is in ringgit, so it includes price changes as well as the amount shipped. MBSB Investment Bank said export prices rose 7.8% a year on average from April to August 2026. So a rise doesn't always mean Malaysia shipped that much more.
 
-## The latest figure is RM215.1 billion, for September 2026.
+## The Latest Figure Is RM215.1 Billion, For September 2026.
 
 - September 2026 exports were RM215.1 billion, against RM139.3 billion a year earlier. It's the first month above RM200 billion.
 - From January to September 2026, exports were RM1.57 trillion, up 34%. The Ministry of Finance (MOF) projects 31% growth for the whole of 2026.
 - MBSB expects trade growth to slow toward the end of the year.
 
-## The next figures are due in November 2026.
+## The Next Figures Are Due In November 2026.
 
 - November 2026: DOSM's October trade figures. DOSM's calendar had not listed the date yet
 - Wednesday, Nov 18, 2026: DOSM's actual GDP figure for July to September
