@@ -1,6 +1,6 @@
 ---
 title: "What Brent Crude Is, And How It Reaches The Petrol Pump"
-term: "Brent crude"
+term: "Brent Crude"
 date: 2026-10-21
 lastmod: 2026-10-21
 summary: "Brent is the oil price in the news: a barrel of North Sea crude, priced in US dollars, and a yardstick for other oil."

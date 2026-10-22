@@ -1,6 +1,6 @@
 ---
 title: "What A Bond Yield Is, And Why Malaysia's 10-Year Yield Matters"
-term: "Bond yield (MGS)"
+term: "Bond Yield (MGS)"
 date: 2026-10-18
 lastmod: 2026-10-18
 summary: "A bond yield is the yearly return a lender earns on a bond. Malaysia's 10-year government bond yield was 3.83% on Oct 16, 2026."

@@ -1,6 +1,6 @@
 ---
 title: "What Malaysia's E&E Exports Are, And Why Chips Matter To You"
-term: "E&E exports"
+term: "E&E Exports"
 date: 2026-10-22
 lastmod: 2026-10-22
 summary: "E&E exports are the electrical and electronic goods Malaysia sells abroad, from chips to devices. In August 2026 they were 48.4% of all exports."
