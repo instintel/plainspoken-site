@@ -1,5 +1,5 @@
 ---
-title: "What the Fed is, and why its rate moves the ringgit"
+title: "What The Fed Is, And Why Its Rate Moves The Ringgit"
 term: "Federal Reserve (the Fed)"
 date: 2026-10-15
 lastmod: 2026-10-15
@@ -17,17 +17,17 @@ The Fed, short for the US Federal Reserve, is the central bank of the US, and it
 
 A central bank is a country's bank for its banks, the one that sets the base cost of borrowing money. Malaysia's is Bank Negara Malaysia (BNM).
 
-## A 12-member committee decides the Fed's rate, eight times a year.
+## A 12-Member Committee Decides The Fed's Rate, Eight Times A Year.
 
 It's called the Federal Open Market Committee (FOMC). Seven of its members sit on the Fed's board in Washington, one is the head of the Fed's New York bank, and the last four come from the Fed's other regional banks, taking turns each year. At each meeting the committee looks at how the US economy is doing and decides what to do with its rate. Its long-run goals are steady prices and an economy that keeps growing.
 
 After every meeting it publishes a short statement saying what it decided.
 
-## The rate it sets is what US banks charge each other overnight.
+## The Rate It Sets Is What US Banks Charge Each Other Overnight.
 
 That rate is called the federal funds rate. The FOMC sets a target range for it, and the Fed uses its tools to keep the rate banks charge each other for one-night loans inside that range. The Fed says changes to that rate feed into other US interest rates and exchange rates between currencies, and in the end into jobs and prices.
 
-## A US rate reaches your money through the ringgit.
+## A US Rate Reaches Your Money Through The Ringgit.
 
 When the Fed raises its rate, saving and lending in US dollars pays more. That tends to make the US dollar stronger. A stronger US dollar means each one costs more ringgit. So anything priced in US dollars, from imported goods to fees for studying overseas, can cost you more ringgit than before.
 
@@ -35,13 +35,13 @@ If you or your business borrowed in US dollars, a higher US rate can also make t
 
 Still, the Fed is one push among many. The ringgit also moves with Malaysia's own economy and trade, and with BNM's own rate. So a Fed decision never decides the ringgit's direction alone.
 
-## The Fed's rate is 3.75% to 4.00% after a rise on Sep 16, 2026.
+## The Fed's Rate Is 3.75% To 4.00% After A Rise On Sep 16, 2026.
 
 On Sep 16, 2026, the FOMC lifted its target range by a quarter of a percentage point. Before that, the range had been 3.50% to 3.75%. All 12 voting members agreed, and it was the Fed's first rise since July 2023. So 3.75% to 4.00% is the range as at Oct 15, 2026.
 
 For comparison, BNM's main rate, the [Overnight Policy Rate (OPR)](/explainers/opr/), has been 2.75% since July 2025.
 
-## The next two Fed decisions are on Oct 29 and Dec 10, Malaysian time.
+## The Next Two Fed Decisions Are On Oct 29 And Dec 10, Malaysian Time.
 
 The Fed announces at 2pm in Washington, which is the early hours of the next morning in Malaysia.
 

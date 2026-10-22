@@ -1,5 +1,5 @@
 ---
-title: "What the RON95 price is, and why it changes every week"
+title: "What The RON95 Price Is, And Why It Changes Every Week"
 term: "RON95 price"
 date: 2026-10-15
 lastmod: 2026-10-22
@@ -17,7 +17,7 @@ The RON95 price most people mean is the full price of a litre of RON95 petrol, w
 
 You'll also see it called the unsubsidised price, meaning what a litre costs with no help from the government.
 
-## MOF sets fuel prices once a week, using a formula.
+## MOF Sets Fuel Prices Once A Week, Using A Formula.
 
 That formula is called the Automatic Pricing Mechanism (APM). Malaysia has set its pump prices weekly with it since April 2017. MOF usually announces the new prices on Wednesday evening, and they apply from Thursday for the next seven days.
 
@@ -28,19 +28,19 @@ Each weekly statement covers more than RON95:
 - Diesel in Peninsular Malaysia
 - Diesel under BUDI Diesel
 
-## The formula follows what fuel cost the week before.
+## The Formula Follows What Fuel Cost The Week Before.
 
 MOF says the APM takes into account the average price of the previous week. So the full price tracks what fuel was costing in the days before, which is why it can go up one week and come down the next. MOF has also said petroleum prices are staying above US$100 a barrel while the West Asia conflict is unresolved, which has squeezed supply of both crude oil and petroleum products such as petrol and diesel.
 
 Not every price moves, though. The government holds some of them fixed: RON95 under BUDI95 stays at RM1.99 and BUDI Diesel at RM2.10, whatever the formula says that week.
 
-## What it means for your money.
+## What It Means For Your Money.
 
 If you're on BUDI95 and stay within your 300 litres a month, the weekly change doesn't reach your own tank. It does reach you once you go past your limit, if you fill up RON97, or if you buy fuel for a business that pays the full price. Every weekly move then shows up in your running costs.
 
 It also changes what the government spends. Because BUDI95 is fixed at RM1.99, every rise in the full price adds to the government's share of each BUDI95 litre. For Oct 22 to 28, 2026, that share is RM2.33 a litre, down from RM2.63 the week before.
 
-## The latest prices are for Oct 22 to 28, 2026.
+## The Latest Prices Are For Oct 22 To 28, 2026.
 
 - RON95, full price: RM4.32 a litre, down 30 sen from the week before
 - RON97: RM4.80 a litre, down 30 sen
@@ -51,7 +51,7 @@ The 30 sen fall in the full RON95 price is the biggest one-week cut so far this 
 
 To see how far the full price has moved, go back a year. For Oct 16 to 22, 2025, a litre of RON95 at the full price cost RM2.60. Filling 40 litres at the full price cost about RM104 then, and costs about RM173 this week.
 
-## The next price comes out around Oct 28, 2026.
+## The Next Price Comes Out Around Oct 28, 2026.
 
 - Around Wednesday, Oct 28, 2026: MOF's prices for Oct 29 to Nov 4, 2026, if it keeps its usual weekly timing
 
