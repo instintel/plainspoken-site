@@ -1,6 +1,6 @@
 ---
 title: "What Malaysia's Minimum Wage Is, And What Changes In 2027"
-term: "Minimum wage"
+term: "Minimum Wage"
 date: 2026-10-22
 lastmod: 2026-10-22
 summary: "Malaysia's minimum wage is the lowest monthly pay an employer can legally offer. It is RM1,700 now and rises to RM2,000 from June 2027."

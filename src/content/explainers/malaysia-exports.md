@@ -1,6 +1,6 @@
 ---
 title: "What Malaysia's Exports Figure Is, And Why It Matters To You"
-term: "Malaysia exports"
+term: "Malaysia Exports"
 date: 2026-10-21
 lastmod: 2026-10-21
 summary: "Malaysia's exports figure is the value of goods the country sold abroad in a month, published by DOSM. In September 2026 it was RM215.1 billion."
