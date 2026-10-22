@@ -14,6 +14,12 @@ export const SITE = {
   // Link to the question form (Google Form, Tally, etc.). While empty, the "Got something you
   // want explained?" line under briefs and explainers stays hidden.
   askUrl: 'https://forms.gle/R5doVGJRa4CfSttV8',
+  // Social accounts. Shown in the footer and listed as sameAs in the Organization structured
+  // data, so search engines link these accounts to the site.
+  social: [
+    { name: 'Instagram @plainspoken.my', short: '@plainspoken.my', url: 'https://www.instagram.com/plainspoken.my/' },
+    { name: 'Instagram @finfacts.my', short: '@finfacts.my', url: 'https://www.instagram.com/finfacts.my/' },
+  ],
   defaultDescription:
     "Malaysia's economy and your money, explained plainly: a daily brief on what moved and why it matters, plus explainers that answer the basics.",
 };

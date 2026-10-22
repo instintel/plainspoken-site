@@ -20,6 +20,15 @@ const imageUrl = hasImage ? (image!.startsWith('http') ? image : absoluteUrl(ima
 const pageTitle = title === 'Home' ? `${SITE.name}: From Wall Street to Wallet Street, Making Sens of the World's Money` : `${title} | ${SITE.name}`;
 const ldBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 const path = Astro.url.pathname;
+const orgLd = SITE.siteUrl
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: SITE.name,
+      url: SITE.siteUrl,
+      sameAs: SITE.social.map((s) => s.url),
+    }
+  : undefined;
 ---
 <!doctype html>
 <html lang="en">
@@ -44,6 +53,7 @@ const path = Astro.url.pathname;
     <meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
     {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
     {modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
+    {orgLd && <script type="application/ld+json" set:html={JSON.stringify(orgLd)} />}
     {ldBlocks.map((block) => <script type="application/ld+json" set:html={JSON.stringify(block)} />)}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,8 +83,11 @@ const path = Astro.url.pathname;
       <div class="site-footer__inner">
         <a href="/" class="ps-mark ps-mark--small" aria-label="Plainspoken home"><span class="ps-mark__square" aria-hidden="true"></span><span class="ps-mark__word">Plainspoken</span></a>
         <span class="site-footer__tagline"><span class="tl">From Wall Street to Wallet Street,</span> <span class="tl">Making Sens of the World's Money.</span></span>
-        {SITE.indexable && <span class="site-footer__copy">{`© ${new Date().getFullYear()} ${SITE.name}`}</span>}
       </div>
+      <nav class="site-footer__social" aria-label="Follow Plainspoken">
+        {SITE.social.map((s) => <a href={s.url} rel="me noopener" target="_blank" aria-label={s.name}>{s.short}</a>)}
+        {SITE.indexable && <span class="site-footer__copy">{`© ${new Date().getFullYear()} ${SITE.name}`}</span>}
+      </nav>
     </footer>
   </body>
 </html>
