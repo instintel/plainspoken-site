@@ -4,17 +4,16 @@ import { SITE, absoluteUrl } from '../site.config';
 // Crawling stays allowed for search engines either way: while the site is private,
 // each page's noindex tag is what keeps it out of search, and crawlers must be able to read it.
 
-// AI training / scraping crawlers: blocked site-wide. Polite bots obey this;
+// AI training / scraping crawlers: blocked site-wide. AI search and link-reading bots
+// (PerplexityBot, ChatGPT-User, OAI-SearchBot, Google-Extended, Claude's search bots) are
+// allowed on purpose, so AI answers can cite and link the site (operator ruling, Oct 23, 2026). Polite bots obey this;
 // Cloudflare's "Block AI bots" setting handles the ones that don't.
 const BLOCKED_BOTS = [
   'GPTBot',
-  'ChatGPT-User',
   'CCBot',
   'ClaudeBot',
   'anthropic-ai',
-  'Google-Extended',
   'Applebot-Extended',
-  'PerplexityBot',
   'Bytespider',
   'Meta-ExternalAgent',
   'Amazonbot',
