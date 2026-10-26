@@ -2,7 +2,7 @@
 title: "What Malaysia's GDP Is, And What Its Growth Rate Means"
 term: "GDP (Gross Domestic Product)"
 date: 2026-10-17
-lastmod: 2026-10-17
+lastmod: 2026-10-26
 summary: "Malaysia's GDP is the total value of everything produced in the country. Its growth rate shows how fast the economy is getting bigger."
 topic: "More"
 tags: ["malaysia gdp", "economic growth", "dosm", "kdnk malaysia", "malaysia economy"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 17, 2026*
+*Updated Oct 26, 2026*
 
 When the news says Malaysia's economy grew 5.3%, the thing being measured is GDP: the total value of the goods and services produced in Malaysia. GDP stands for gross domestic product, and 5.3% means it was that much bigger than in the same three months a year earlier, with rising prices taken out.
 
@@ -40,6 +40,8 @@ That's DOSM's advance estimate, released Oct 16, 2026. It's slower than the 6.0%
 Over the first nine months of 2026, the economy grew 5.5%, up from 4.8% over the same months of 2025.
 
 MOF expects 4.8% to 5.3% growth for the whole of 2026, up from the 4.0% to 4.5% it expected when it drew up Budget 2026. So growth so far is running above the top of the government's own range.
+
+![Malaysia's economy grew 5.3% from July to September 2026 (Chart). Real GDP growth each quarter since January to March 2024, against the same quarter a year earlier, in percent. The latest bar is DOSM's advance estimate.](/images/explainers/gdp/chart-gdp-2026-10-26.png)
 
 ## The Actual Figure For July To September Comes Out On Nov 18, 2026.
 

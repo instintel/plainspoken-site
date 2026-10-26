@@ -27,13 +27,15 @@ The ringgit amount grows with the economy, so MOF also states it as a percentage
 
 If 2027 comes in at 3.3%, it would be the lowest since 2017. In 2021 the deficit was 6.4%.
 
+![Malaysia's deficit target for 2027 is 3.3% of GDP, down from 6.4% in 2021 (Chart). The federal government's deficit each year as a share of GDP, in percent. 2026 is MOF's estimate and 2027 its target. The line is the 3% goal.](/images/explainers/fiscal-deficit/chart-fiscal-deficit-2026-10-26.png)
+
 ## Debt Is What Adds Up From The Deficits.
 
 Each year's borrowing adds to the federal government's debt, the total it owes. At the end of June 2026 that was RM1.38 trillion, or 63.1% of GDP. At the end of 2025 it was 65.2%. Debt as a share of GDP can fall even while the government still borrows, because the economy it is measured against grows too.
 
 ## Two Targets Set The Direction.
 
-The Public Finance and Fiscal Responsibility Act 2023 sets a medium-term goal of a deficit below 3% of GDP and debt below 60%. Budget 2027 plans a deficit averaging 3.1% of GDP from 2027 to 2029, so the 3% goal is still ahead. Debt at 63.1% is above 60%.
+The Public Finance and Fiscal Responsibility Act 2023 sets a medium-term goal of a deficit of 3% of GDP or less and debt of 60% or less. Budget 2027 plans a deficit averaging 3.1% of GDP from 2027 to 2029, so the 3% goal is still ahead. Debt at 63.1% is above 60%.
 
 A separate ceiling limits statutory debt, which means the government's bonds and bills, to 65% of GDP. It stood at 61.9% at the end of March 2026.
 
