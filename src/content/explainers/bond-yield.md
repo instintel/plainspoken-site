@@ -2,7 +2,7 @@
 title: "What A Bond Yield Is, And Why Malaysia's 10-Year Yield Matters"
 term: "Bond Yield (MGS)"
 date: 2026-10-18
-lastmod: 2026-10-18
+lastmod: 2026-10-26
 summary: "A bond yield is the yearly return a lender earns on a bond. Malaysia's 10-year government bond yield was 3.83% on Oct 16, 2026."
 topic: "Interest rates and loans"
 tags: ["bond yield", "mgs", "malaysian government securities", "10-year yield", "bank negara malaysia"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 18, 2026*
+*Updated Oct 26, 2026*
 
 A bond yield is the yearly return someone earns for lending money by buying a bond. On Oct 16, 2026, Malaysia's 10-year government bond yield was 3.83%, so a buyer that day would earn about 3.83% a year by holding it until the government pays it back.
 
@@ -36,6 +36,8 @@ If you own a bond fund, its value moves the opposite way to yields: rising yield
 ## The 10-Year MGS Yield Was 3.83% On Oct 16, 2026.
 
 Shorter MGS paid less that day: 3.43% for three years, 3.62% for five years and 3.80% for seven years. For comparison, BNM's own main rate, the [Overnight Policy Rate (OPR)](/explainers/opr/), is 2.75%, about one percentage point below the 10-year yield.
+
+![Longer government bonds paid more on Oct 16, 2026 (Chart). Closing yields on Malaysian Government Securities by how long the bond runs, in percent. The line is BNM's Overnight Policy Rate.](/images/explainers/bond-yield/chart-bond-yield-2026-10-26.png)
 
 ## BNM's Next Rate Decision Is On Nov 5, 2026.
 

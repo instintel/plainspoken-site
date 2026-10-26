@@ -2,7 +2,7 @@
 title: "What Inflation Is In Malaysia, And How It's Measured"
 term: "Inflation (CPI)"
 date: 2026-10-18
-lastmod: 2026-10-21
+lastmod: 2026-10-26
 summary: "Inflation is how fast prices are rising. In Malaysia, DOSM measures it every month with the consumer price index (CPI)."
 topic: "Prices and inflation"
 tags: ["inflation", "cpi malaysia", "dosm", "kadar inflasi", "cost of living"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 21, 2026*
+*Updated Oct 26, 2026*
 
 Inflation is how fast prices are rising, compared with the same month a year earlier. Malaysia's inflation was 1.8% in September 2026, so the same mix of everyday spending cost 1.8% more than it did in September 2025.
 
@@ -38,6 +38,8 @@ Inflation is also what Bank Negara Malaysia (BNM) watches when it sets the [Over
 ## Malaysia's Inflation Was 1.8% In September 2026.
 
 It was down from 1.9% in August. The government expects inflation to average 1.5% to 2.5% in 2026, and 1.8% to 2.8% in 2027.
+
+![Malaysia's inflation was 1.8% in September, down from 1.9% in August (Chart). Malaysia's inflation each month from November 2025 to September 2026, the rise in the consumer price index from a year earlier, in percent.](/images/explainers/inflation/chart-inflation-2026-10-26.png)
 
 ## BNM's Next Rate Decision Is On Nov 5, 2026.
 
