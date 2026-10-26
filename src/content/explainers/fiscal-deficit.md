@@ -3,7 +3,7 @@ title: "What The Budget Deficit Is, And Why Malaysia's Debt Matters"
 term: "Budget Deficit"
 date: 2026-10-26
 lastmod: 2026-10-26
-summary: "A budget deficit is the gap between what the government spends and collects in a year. MOF targets RM77.5 billion, or 3.3% of GDP, for 2027."
+summary: "A budget deficit is the gap between what the government spends and collects each year. MOF targets RM77.5 billion, or 3.3% of GDP, for 2027."
 topic: "The Budget and government"
 tags: ["budget deficit malaysia", "fiscal deficit malaysia", "government debt malaysia", "defisit fiskal", "budget 2027"]
 author: "plainspoken"
