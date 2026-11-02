@@ -2,7 +2,7 @@
 title: "What The Budget Deficit Is, And Why Malaysia's Debt Matters"
 term: "Budget Deficit"
 date: 2026-10-26
-lastmod: 2026-10-26
+lastmod: 2026-11-02
 summary: "A budget deficit is the gap between what the government spends and collects each year. MOF targets RM77.5 billion, or 3.3% of GDP, for 2027."
 topic: "The Budget and government"
 tags: ["budget deficit malaysia", "fiscal deficit malaysia", "government debt malaysia", "defisit fiskal", "budget 2027"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 26, 2026*
+*Updated Nov 2, 2026*
 
 Malaysia's budget deficit is the gap between what the federal government spends in a year and what it collects. The government covers the gap by borrowing. For 2027 the Ministry of Finance (MOF) targets a deficit of RM77.5 billion, or 3.3% of [GDP](/explainers/gdp/).
 
@@ -55,9 +55,8 @@ When a headline announces a subsidy, a handout or a tax change, the deficit show
 
 ## When Things Change Next.
 
-- Oct 26 to 29, 2026: ministers wind up the Budget 2027 debate in Parliament's Dewan Rakyat
-- Wednesday, Oct 28, 2026: MOF announces the next weekly fuel prices
-- Nov 2 to 6, 2026: committee stage of the Supply Bill 2027
+- Oct 29, 2026: Parliament's Dewan Rakyat passed the Supply Bill 2027, the law behind Budget 2027, at the policy stage
+- Nov 2 to 26, 2026: committee stage, when MPs debate the Budget's spending ministry by ministry
 
 ## Sources
 
@@ -66,4 +65,4 @@ When a headline announces a subsidy, a handout or a tax change, the deficit show
 - [The Vibes: debt pressure and fiscal targets, Jul 29, 2026](https://www.thevibes.com/articles/news/125562/govt-cuts-debt-pressure-as-fiscal-reforms-drive-deficit-lower)
 - [Business Today: Fitch on Budget 2027](https://www.businesstoday.com.my/2026/10/13/malaysias-budget-maintains-gradual-fiscal-consolidation/)
 - [OCBC: Budget 2027 review](https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/pdf/Regional%20Focus/Malaysia/MA_Budget2027review_9Oct26.pdf)
-- [The Star: Supply Bill 2027 schedule](https://www.thestar.com.my/news/nation/2026/10/06/supply-bill-2027-tabled-for-first-reading-in-parliament)
+- [The Star: Dewan Rakyat passes Supply Bill 2027 at policy stage, Oct 29, 2026](https://www.thestar.com.my/news/nation/2026/10/29/dewan-rakyat-passes-supply-bill-2027-at-policy-stage)
