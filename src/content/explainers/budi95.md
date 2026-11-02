@@ -23,29 +23,29 @@ BUDI95 started on Sep 30, 2025. There's nothing to sign up for. At the petrol st
 
 A few groups get special treatment. Full-time e-hailing drivers get a bigger allowance than everyone else, and registered boat owners can qualify without a driving licence.
 
-## Each Person Gets 300 Litres A Month At RM1.99.
+## Each Person Gets 300 Subsidised Litres A Month.
 
 Your 300 litres reset on the 1st of every month. Once you've used them up, every extra litre that month is charged at the full price.
 
-That limit has already moved once. The government cut it to 200 litres from April 1, 2026, when oil got expensive, then put it back to 300 litres from Sep 1, 2026. The RM1.99 price itself has stayed the same the whole time.
+That limit has already moved once. The government cut it to 200 litres from April 1, 2026, when oil got expensive, then put it back to 300 litres from Sep 1, 2026. The BUDI95 price itself has stayed the same the whole time.
 
-## The Government Pays The Gap, And That Gap Has Grown A Lot.
+## The Government's Share Grew From 61 Sen To RM2.33 A Litre.
 
-On every BUDI95 litre, the government covers the difference between RM1.99 and that week's full price. When the scheme started, the full price of RON95 was RM2.60, so the government's part was 61 sen a litre.
+On every BUDI95 litre, the government covers the difference between the BUDI95 price and that week's full price. When the scheme started, the full price of RON95 was RM2.60, so the government's part was 61 sen a litre.
 
-For Oct 22 to 28, 2026, the full price is RM4.32. That means the government now covers RM2.33 of every BUDI95 litre, or 54% of the full price, which is more than the RM1.99 you pay yourself. A week earlier, at RM4.62, its part was RM2.63, or 57%.
+For Oct 22 to 28, 2026, the full price is RM4.32. That means the government now covers RM2.33 of every BUDI95 litre, or 54% of the full price, which is more than you pay yourself. A week earlier, at RM4.62, its part was RM2.63, or 57%.
 
 Across millions of subsidised litres, that makes fuel help a big bill for the government. Budget 2027 puts spending on fuel subsidies at about RM40 billion for 2027.
 
-## What It Means For Your Money.
+## The Weekly Full Price Reaches You Past Your Limit.
 
-If you drive your own car and stay within 300 litres a month, the weekly price changes don't touch your tank. You pay RM1.99 a litre whether the full price goes up or down that week.
+If you drive your own car and stay within 300 litres a month, the weekly price changes don't touch your tank.
 
-Things change if you go past your limit, or if you fill up for a business that isn't covered by the scheme. Those litres are charged at whatever MOF set for that week, and that price has gone from RM2.60 a year ago to RM4.32 this week.
+Things change if you go past your limit, or if you fill up for a business that isn't covered by the scheme. Those litres are charged at whatever MOF set for that week, and that price has gone from RM2.60 a year ago to RM4.32 for Oct 22 to 28, 2026.
 
 Diesel works the same way under a separate scheme, BUDI Diesel, where eligible diesel vehicle owners pay RM2.10 a litre.
 
-## When Things Change Next.
+## MOF Sets Prices Weekly, And Your Allowance Resets Monthly.
 
 - Every week, usually on Wednesday evening: MOF announces the next week's full fuel prices, which apply from Thursday
 - Nov 1, 2026: everyone's BUDI95 allowance resets to 300 litres for the month

@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 27, 2026*
 
-The OPR, short for Overnight Policy Rate, is the main interest rate Bank Negara Malaysia (BNM) sets, and it shapes what borrowing costs across Malaysia. When BNM moves it, banks change the rate on floating-rate loans to match, so the monthly instalment on that kind of loan goes up or down with it.
+The OPR, short for Overnight Policy Rate, is the main interest rate Bank Negara Malaysia (BNM) sets, and it shapes what borrowing costs across Malaysia. It has been 2.75% since July 2025, when BNM cut it from 3.00%. When BNM moves it, banks change the rate on floating-rate loans to match, so your monthly instalment on that kind of loan goes up or down with it.
 
 An interest rate is basically the price of borrowing money: the extra you pay back on top of what you borrowed.
 

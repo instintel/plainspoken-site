@@ -13,9 +13,9 @@ draft: false
 
 *Updated Oct 26, 2026*
 
-When the news says Malaysia's economy grew 5.3%, the thing being measured is GDP: the total value of the goods and services produced in Malaysia. GDP stands for gross domestic product, and 5.3% means it was that much bigger than in the same three months a year earlier, with rising prices taken out.
+When the news says Malaysia's economy grew 5.3% from July to September 2026, the thing being measured is GDP: the total value of the goods and services produced in Malaysia. GDP stands for gross domestic product, and 5.3% means it was that much bigger than in the same three months a year earlier, with rising prices taken out. That's slower than the 6.0% from April to June.
 
-In Malay it's called KDNK, short for Keluaran Dalam Negara Kasar.
+In Malay it's called KDNK, short for Keluaran Dalam Negara Kasar. GDP is the widest view of how busy Malaysia's businesses are.
 
 ## The Department Of Statistics Malaysia (DOSM) Measures It Every Three Months.
 
@@ -27,19 +27,17 @@ About two weeks after a quarter ends, DOSM puts out an advance estimate, an earl
 
 That already happened this year. The advance estimate for January to March 2026 was 5.3%. The actual figure, released in May, was 5.4%.
 
-## What It Means For Your Money.
-
-GDP is the widest view of how busy Malaysia's businesses are, and the Ministry of Finance (MOF) publishes a forecast for it alongside each Budget.
+## Factories Grew 7.5% From July To September, While Mining Shrank.
 
 The breakdown shows which kinds of work are growing. From July to September 2026, manufacturing grew 7.5%, led by electrical and electronic products. Construction grew 6.0%, and services, which covers shops, telcos and banks, grew 5.4%. Mining shrank 4.9%, because Malaysia produced less crude oil.
 
-## Malaysia's GDP Grew 5.3% From July To September 2026.
+## Growth So Far In 2026 Is Running Above The Government's Own Range.
 
-That's DOSM's advance estimate, released Oct 16, 2026. It's slower than the 6.0% from April to June. Before that, growth was 6.2% from October to December 2025 and 5.4% from January to March 2026.
+DOSM's 5.3% is its advance estimate, released Oct 16, 2026. Before April to June, growth was 6.2% from October to December 2025 and 5.4% from January to March 2026.
 
 Over the first nine months of 2026, the economy grew 5.5%, up from 4.8% over the same months of 2025.
 
-MOF expects 4.8% to 5.3% growth for the whole of 2026, up from the 4.0% to 4.5% it expected when it drew up Budget 2026. So growth so far is running above the top of the government's own range.
+The Ministry of Finance (MOF) publishes a forecast for GDP alongside each Budget. It expects 4.8% to 5.3% growth for the whole of 2026, up from the 4.0% to 4.5% it expected when it drew up Budget 2026. So growth so far is running above the top of that range.
 
 ![Malaysia's economy grew 5.3% from July to September 2026 (Chart). Real GDP growth each quarter since January to March 2024, against the same quarter a year earlier, in percent. The latest bar is DOSM's advance estimate.](/images/explainers/gdp/chart-gdp-2026-10-26.png)
 

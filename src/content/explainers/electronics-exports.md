@@ -13,19 +13,17 @@ draft: false
 
 *Updated Oct 22, 2026*
 
-E&E exports are the electrical and electronic goods that Malaysia sells to other countries. That covers semiconductors, which are chips, and other electronic products. In August 2026 they were RM92.5 billion, or 48.4% of everything Malaysia exported that month.
+E&E exports are the electrical and electronic goods that Malaysia sells to other countries, from semiconductors, which are chips, to other electronic products. In August 2026 they were RM92.5 billion, or 48.4% of everything Malaysia exported that month.
 
-"E&E" is the short name the Department of Statistics Malaysia (DOSM) and the Ministry of Investment, Trade and Industry (MITI) use for these goods.
+"E&E" is the short name the Department of Statistics Malaysia (DOSM) and the Ministry of Investment, Trade and Industry (MITI) use for these goods. Exports feed the growth rate, which is [GDP](/explainers/gdp/), so E&E sits behind how fast the economy grows. It also shows where factory demand is coming from.
 
-## E&E Is The Biggest Single Part Of Malaysia's [Exports](/explainers/malaysia-Exports/).
+## E&E Is The Biggest Single Part Of Malaysia's [Exports](/explainers/malaysia-exports/).
 
 In 2025, these goods made up RM712 billion of the RM1.6 trillion Malaysia exported, the trade minister told Parliament on Oct 12, 2026. In the first eight months of 2026 it was RM656.1 billion, up from RM447.4 billion a year earlier, according to DOSM's trade bulletin.
 
 August alone was up 66.5% from a year earlier. For September 2026, DOSM said E&E products were the main driver of the rise in total exports, adding RM45.1 billion to the figure.
 
-## The US Is One Of The Buyers.
-
-In September 2026, exports to the US rose 89.9% to a record RM38.03 billion, and The Star, citing MITI data, reported that higher E&E exports lifted the total.
+The US is one of the buyers. In September 2026, exports to the US rose 89.9% to a record RM38.03 billion, and The Star, citing MITI data, reported that higher E&E exports lifted the total.
 
 ## One Group Of Goods Carries A Lot Of The Trade Surplus.
 
@@ -33,13 +31,11 @@ A trade surplus means Malaysia sold more abroad than it bought. In 2025, the min
 
 That is why the government says it wants to widen the mix. It points to the New Industrial Master Plan 2030 and the National Semiconductor Strategy, and to selling more to markets such as Central Asia and Africa.
 
-## What It Means For Your Money.
+## A Lot Rides On Demand For Chips.
 
-Exports feed the growth rate, which is [GDP](/explainers/gdp/), so E&E sits behind how fast the economy grows. It also shows where factory demand is coming from.
+HLIB Research called the global semiconductor upcycle the main growth engine for Malaysia's exports. It named a pending US decision on tariffs linked to excess capacity as a key downside risk. If overseas demand for chips cools, the export figure is where it would show first.
 
-It also means a lot rides on one kind of buyer. HLIB Research called the global semiconductor upcycle the main growth engine for Malaysia's exports, and named a pending US decision on tariffs linked to excess capacity as a key downside risk. If overseas demand for chips cools, the export figure is where it would show first.
-
-## The Latest Figures.
+## The Latest E&E Figures Are For August And September 2026.
 
 - August 2026: E&E exports RM92.5 billion, up 66.5%, or 48.4% of total exports
 - September 2026: E&E products added RM45.1 billion to the year-on-year rise in exports

@@ -13,11 +13,11 @@ draft: false
 
 *Updated Oct 29, 2026*
 
-The producer price index (PPI) tracks the prices Malaysian producers charge for the things they make, from crude oil and farm produce to factory goods and electricity. In September 2026 those prices were 12.0% higher than a year earlier.
+The producer price index (PPI) tracks the prices Malaysian producers charge for the things they make, from crude oil and farm produce to factory goods and electricity. In September 2026 those prices were 12.0% higher than a year earlier, up from 10.7% in August. The Department of Statistics Malaysia (DOSM) publishes it, and its notes say the PPI is often seen as a leading indicator of consumer prices, which means it can move before they do.
 
 ## DOSM Measures It Every Month, At The Factory Gate.
 
-The Department of Statistics Malaysia (DOSM) collects about 4,539 prices a month from producers and government agencies. Each one is the price the producer gets when the goods first leave the farm, mine or factory, after discounts. Sales and services tax (SST), excise duties and separately billed transport are left out.
+DOSM collects about 4,539 prices a month from producers and government agencies. Each one is the price the producer gets when the goods first leave the farm, mine or factory, after discounts. Sales and services tax (SST), excise duties and separately billed transport are left out.
 
 It covers five sectors: farming, forestry and fishing; mining; manufacturing; electricity and gas; and water. Manufacturing carries the most weight, about 82% of the index. DOSM publishes it as the "PPI Local Production".
 
@@ -25,7 +25,7 @@ Prices are also sorted by how far along the chain the goods are. Raw materials c
 
 ## It Is Not The Inflation Figure You Hear About.
 
-When people talk about [inflation](/explainers/inflation/), they usually mean the figure that comes from the consumer price index (CPI), which tracks what households pay at the shops. The PPI tracks what producers charge before anything reaches a shop. DOSM's notes say the PPI is often seen as a leading indicator of the CPI, which means it can move before shop prices do.
+When people talk about [inflation](/explainers/inflation/), they usually mean the figure that comes from the consumer price index (CPI), which tracks what households pay at the shops. The PPI tracks what producers charge before anything reaches a shop.
 
 Those two can be far apart. In September 2026, producer prices rose 12.0% from a year earlier, while consumer prices rose 1.8%.
 

@@ -13,15 +13,17 @@ draft: false
 
 *Updated Nov 2, 2026*
 
-Malaysia's factory PMI, short for purchasing managers' index, is a monthly survey of how factories are doing. S&P Global, a company that runs these surveys in many countries, asks purchasing managers at about 400 Malaysian manufacturers whether business got better or worse than the month before. In October 2026 the reading was 51.0, up from 49.9 in September.
+Malaysia's factory PMI, short for purchasing managers' index, is a monthly survey of how factories are doing, from their orders to their hiring. In October 2026 the reading was 51.0, up from 49.9 in September. Factories also added staff in October, the third month in a row.
 
-## The Line That Matters Is 50.
+## S&P Global Surveys About 400 Factories Every Month.
+
+S&P Global, a company that runs these surveys in many countries, asks purchasing managers at about 400 Malaysian manufacturers whether business got better or worse than the month before. Firms answer in the second half of each month, and the result comes out in the first days of the next month, at 8:30am Malaysian time. S&P Global says PMI data come out faster than official [GDP](/explainers/gdp/) figures, which in Malaysia come from the statistics department.
+
+## The Line That Matters Is 50, And Five Parts Make Up The Score.
 
 Each question asks whether something was higher, the same or lower than a month earlier. S&P Global turns the answers into a score from 0 to 100. Above 50 means conditions improved on the month before, and below 50 means they got worse.
 
 So the PMI tells you which way factories moved, not how big the change was in ringgit. A reading of 49.9 means things were slightly worse than the month before, not that factories stopped working.
-
-## Five Parts Make Up The Headline Number.
 
 The headline PMI mixes five parts of the survey, each with a set weight:
 
@@ -33,10 +35,6 @@ The headline PMI mixes five parts of the survey, each with a set weight:
 
 Delivery times are counted the other way round, so longer waits for supplies push the headline score up, not down. That is one reason to read the parts as well as the headline.
 
-## It Comes Out Before The Official Figures.
-
-Firms answer in the second half of each month, and the result comes out in the first days of the next month, at 8:30am Malaysian time. S&P Global says PMI data come out faster than official [GDP](/explainers/gdp/) figures, which in Malaysia come from the statistics department.
-
 ## Malaysia's PMI Has Stayed Close To 50 For A Year.
 
 From October 2025 to October 2026 the reading stayed between 49.3 and 51.6. In 2026 it was below 50 in February (49.3), May (49.9) and September (49.9). It peaked at 51.6 in April, a four-year high that S&P Global said was at least partly due to stockpiling by manufacturers and their clients.
@@ -45,15 +43,13 @@ October's 51.0 was the highest since April. S&P Global economist Maryam Baluch s
 
 ![Malaysia's factory PMI rose to 51.0 in October 2026, back above 50 (Chart). S&P Global's monthly survey of Malaysian manufacturers, October 2025 to October 2026, in index points. Above the line at 50, conditions improved on the month before.](/images/explainers/pmi/chart-pmi-2026-11-02.png)
 
-## What It Means For Your Money.
+## The PMI's Parts Reach Jobs And Prices.
 
-The PMI is about factories, but its parts reach jobs and prices. The employment part shows whether factories are hiring: in October they added staff for a third month in a row. Firms also raised their selling prices as they passed higher costs on to buyers. Those are factory prices, not shop prices. Malaysia's official measure of producer prices is the [producer price index](/explainers/producer-price-index/).
+The employment part shows whether factories are hiring. Firms also raised their selling prices in October as they passed higher costs on to buyers. Those are factory prices, not shop prices. Malaysia's official measure of producer prices is the [producer price index](/explainers/producer-price-index/).
 
-## Other Countries Have Their Own PMI.
+## Other Countries Have Their Own PMI, And Malaysia's Next Reading Is Out On Dec 1, 2026.
 
 China's official PMI, from its National Bureau of Statistics, fell to 49.3 in October 2026 from 50.1 in September. It is a different survey from Malaysia's, so the two can move in different directions, as they did in October.
-
-## When The Next Readings Come Out.
 
 - **Tuesday, Nov 3, 2026, 8:30am Malaysian time:** S&P Global's ASEAN manufacturing PMI for October, its survey of factories across Southeast Asia
 - **Tuesday, Dec 1, 2026, 8:30am Malaysian time:** Malaysia's PMI for November

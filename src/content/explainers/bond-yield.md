@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 26, 2026*
 
-A bond yield is the yearly return someone earns for lending money by buying a bond. On Oct 16, 2026, Malaysia's 10-year government bond yield was 3.83%, so a buyer that day would earn about 3.83% a year by holding it until the government pays it back.
+A bond yield is the yearly return someone earns for lending money by buying a bond. On Oct 16, 2026, Malaysia's 10-year government bond yield was 3.83%, so a buyer that day would earn about 3.83% a year by holding it until the government pays it back. The 10-year yield is also a guide to what it costs the government to borrow for ten years.
 
 A bond is an IOU you can buy and sell: you lend money, the borrower pays you interest along the way, and you get your money back on a set date.
 
@@ -27,11 +27,11 @@ MGS are the most actively traded bonds in Malaysia, which is why their yields ar
 
 Each bond's interest payment is fixed when it's first sold. If interest rates rise, new bonds pay more, so an older bond paying less is worth less and its price falls. Whoever buys it at that lower price earns a higher return on their money. That return is the yield, so a rising yield and a falling bond price are the same move. When you read that yields rose, read it as bond prices falling.
 
-## What It Means For Your Money.
-
-The 10-year MGS yield is a guide to what it costs the government to borrow for ten years. When it rises, investors may also want a higher return before they lend to companies through bonds. Banks hold MGS too, so a jump in yields means the bonds they own are worth less, at least on paper.
+## Higher Yields Mean Bonds And Bond Funds Are Worth Less.
 
 If you own a bond fund, its value moves the opposite way to yields: rising yields pull it down, and falling yields lift it.
+
+Banks hold MGS too, so a jump in yields means the bonds they own are worth less, at least on paper. When the 10-year yield rises, investors may also want a higher return before they lend to companies through bonds.
 
 ## The 10-Year MGS Yield Was 3.83% On Oct 16, 2026.
 

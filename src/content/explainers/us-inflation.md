@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 30, 2026*
 
-US inflation is how fast prices in the US rise over a year. The US Federal Reserve (the Fed) aims to keep it at 2% on a measure called the PCE price index, which rose 3.6% in the year to September 2026.
+US inflation is how fast US prices rise over a year, and it can reach your money through the US Federal Reserve (the Fed) and the ringgit. The Fed aims to keep it at 2% on a measure called the PCE price index, which rose 3.6% in the year to September 2026.
 
 ## The US Has Two Main Inflation Figures, CPI And PCE.
 
@@ -29,7 +29,7 @@ In its statement of long-run goals, the Fed says inflation of 2%, measured by th
 
 ## US Prices Reach Your Money Through The Fed And The Ringgit.
 
-Changes to the Fed's rate feed into other interest rates and into exchange rates between currencies, the Fed says. That is the path to your wallet: a Fed move can change how many ringgit each US dollar costs, which matters for anything priced in US dollars. Our [Federal Reserve](/explainers/federal-reserve/) and [ringgit](/explainers/ringgit/) pages walk through that chain.
+Changes to the Fed's rate feed into other interest rates and into exchange rates between currencies, the Fed says. So a Fed move can change how many ringgit each US dollar costs, which reaches your wallet through anything priced in US dollars. Our [Federal Reserve](/explainers/federal-reserve/) and [ringgit](/explainers/ringgit/) pages walk through that chain.
 
 A US inflation figure on its own does not move the ringgit in a set direction, because the ringgit also follows Malaysia's own economy. Malaysia's own [inflation](/explainers/inflation/) is measured separately, by Malaysia's statistics department.
 
