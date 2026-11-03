@@ -2,7 +2,7 @@
 title: "What The Producer Price Index Is, And How It Differs From CPI"
 term: "PPI (Producer Price Index)"
 date: 2026-10-29
-lastmod: 2026-10-29
+lastmod: 2026-11-03
 summary: "The PPI tracks the prices Malaysian producers charge for what they make. It rose 12.0% in the year to September 2026."
 topic: "Prices and inflation"
 tags: ["producer prices malaysia", "ppi malaysia", "indeks harga pengeluar", "dosm", "inflation"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 29, 2026*
+*Updated Nov 3, 2026*
 
 The producer price index (PPI) tracks the prices Malaysian producers charge for the things they make, from crude oil and farm produce to factory goods and electricity. In September 2026 those prices were 12.0% higher than a year earlier, up from 10.7% in August. The Department of Statistics Malaysia (DOSM) publishes it, and its notes say the PPI is often seen as a leading indicator of consumer prices, which means it can move before they do.
 
@@ -39,13 +39,16 @@ In September, mining prices rose 54.1%, driven mainly by crude petroleum extract
 
 ## The Next Reading Is For October 2026.
 
-Each month's PPI comes out near the end of the following month. The next release covers October 2026, and DOSM's October consumer price figures will show whether shop prices are still rising far more slowly.
+Each month's PPI comes out near the end of the following month, and DOSM's release calendar sets the next dates.
+
+- Thursday, Nov 19, 2026: DOSM's consumer price figures for October, which will show whether shop prices are still rising far more slowly
+- Friday, Nov 27, 2026: DOSM's producer price index for October 2026
 
 ## Sources
 
 - [Department of Statistics Malaysia (DOSM), Producer Price Index Local Production, Technical Notes](https://www.dosm.gov.my/uploads/release-content/file_20260327093617.pdf)
 - [Department of Statistics Malaysia (DOSM), Producer Price Index Local Production, February 2026](https://www.dosm.gov.my/uploads/release-content/file_20260327111236.pdf)
 - [Department of Statistics Malaysia (DOSM), Producer Price Index Local Production, August 2026](https://www.dosm.gov.my/uploads/release-content/file_20260928091151.pdf)
-- [The Sun, Malaysia's PPI up 12 percent in September 2026, Oct 28, 2026](https://thesun.my/news/malaysia-news/people-issues/malaysias-ppi-up-12-percent-in-september-2026-dosm/)
-- [Xinhua, Malaysia's producer price inflation accelerates to 10.8 pct in Q3, Oct 28, 2026](https://english.news.cn/20261028/de19847dc67343e09ed2f189e08371bd/c.html)
+- [Department of Statistics Malaysia (DOSM), OpenDOSM upcoming publications (release calendar)](https://open.dosm.gov.my/publications/upcoming)
+- [The Star, September producer inflation up 12% on oil prices, Oct 29, 2026](https://www.thestar.com.my/business/business-news/2026/10/29/september-producer-inflation-up-12-on-oil-prices)
 - [The Star, September inflation eases slightly to 1.8%, Oct 19, 2026](https://www.thestar.com.my/business/business-news/2026/10/19/september-inflation-eases-slightly-to-18-on-as-utilities-cost-moderates)
