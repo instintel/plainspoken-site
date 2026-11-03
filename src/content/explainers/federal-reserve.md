@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 29, 2026*
 
-The Fed, short for the US Federal Reserve, is the central bank of the US, and it sets the main interest rate there. When that rate goes up or down, it can change what the US dollar is worth against the ringgit, which reaches anything you pay for or borrow in US dollars.
+The US Federal Reserve, known as the Fed, is the central bank of the US, and it sets the main interest rate there. On Oct 28, 2026, it kept that rate at 3.75% to 4.00%, where it has sat since a rise on Sep 16, 2026. When that rate goes up or down, it can change what the US dollar is worth against the ringgit, which reaches anything you pay for or borrow in US dollars.
 
 A central bank is a country's bank for its banks, the one that sets the base cost of borrowing money. Malaysia's is Bank Negara Malaysia (BNM).
 
@@ -23,7 +23,7 @@ It's called the Federal Open Market Committee (FOMC). Seven of its members sit o
 
 After each rate meeting it publishes a short statement saying what it decided.
 
-It normally meets eight times a year. On Oct 28, 2026, the Fed's chair, Kevin Warsh, said one of the eight meetings in 2027 will be kept for broad strategy talks, with no rate vote and no statement, which leaves seven rate decisions. He said he expects two strategy meetings in 2028, leaving six. He did not say which 2027 meeting it will be.
+It normally meets eight times a year. On Oct 28, 2026, the Fed's chair, Kevin Warsh, said one of the eight meetings in 2027 will be kept for broad strategy talks, with no rate vote and no statement, which leaves seven rate decisions. He said he expects two strategy meetings in 2028, leaving six.
 
 ## The Rate It Sets Is What US Banks Charge Each Other Overnight.
 
@@ -35,7 +35,7 @@ When the Fed raises its rate, saving and lending in US dollars pays more. That t
 
 If you or your business borrowed in US dollars, a higher US rate can also make that loan more expensive to repay. A Fed cut tends to work the other way.
 
-Still, the Fed is one push among many. The ringgit also moves with Malaysia's own economy and trade, and with BNM's own rate. So a Fed decision never decides the ringgit's direction alone.
+Still, the Fed is one push among many. The ringgit also moves with Malaysia's own economy and trade, and with BNM's own rate.
 
 ## The Fed Held Its Rate At 3.75% To 4.00% On Oct 28, 2026.
 
@@ -43,9 +43,9 @@ On Oct 28, 2026, the FOMC kept its target range at 3.75% to 4.00%. The vote was 
 
 That range has been in place since Sep 16, 2026, when the Fed raised it by a quarter of a percentage point from a range of 3.50% to 3.75%, its first rise since July 2023. The top of the range peaked at 5.50% from July 2023 until the Fed began cutting in September 2024.
 
-![The Fed held its rate range at 3.75% to 4.00% on Oct 28, 2026 (Chart). The top of the Fed's target range for its main rate at the end of each month since March 2022, and its level on Oct 29, 2026, in per cent.](/images/explainers/federal-reserve/chart-federal-reserve-2026-10-29.png)
-
 For comparison, BNM's main rate, the [Overnight Policy Rate (OPR)](/explainers/opr/), has been 2.75% since July 2025.
+
+![The Fed held its rate range at 3.75% to 4.00% on Oct 28, 2026 (Chart). The top of the Fed's target range for its main rate at the end of each month since March 2022, and its level on Oct 29, 2026, in per cent.](/images/explainers/federal-reserve/chart-federal-reserve-2026-10-29.png)
 
 ## The Next Fed Decision Is Early On Dec 10, Malaysian Time.
 

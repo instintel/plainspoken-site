@@ -13,7 +13,9 @@ draft: false
 
 *Updated Oct 28, 2026*
 
-The median wage is the pay of the worker in the exact middle: line everyone up from lowest to highest pay, and half earn more than the median while half earn less. Malaysia's median monthly wage for citizens in formal jobs was RM3,000 in June 2026.
+The median wage is the pay of the worker in the exact middle: line everyone up from lowest to highest pay, and half earn more than the median while half earn less. Malaysia's median monthly wage for citizens in formal jobs was RM3,000 in June 2026, up 4.8% from a year earlier.
+
+A pay rise means more when you set it against prices. Over the same year, [consumer prices](/explainers/inflation/) rose 1.9%, so the median rose faster than prices.
 
 ## The Median Is Not The Average.
 
@@ -26,8 +28,6 @@ The Department of Statistics Malaysia (DOSM) publishes the figure in its quarter
 ## Your Pay Against RM3,000 Is Only Part Of The Picture.
 
 Where you work matters. In June 2026 the median was RM4,245 in Kuala Lumpur and RM1,827 in Kelantan. Across the country, the bottom 10% of formal workers earned RM1,700 or less, and the top 10% earned at least RM9,600. Women's median was RM2,964 and men's was RM3,000.
-
-A pay rise also means more when you set it against prices. The median rose 4.8% over the year to June 2026, while [consumer prices](/explainers/inflation/) rose 1.9% over the same year.
 
 ## The Median Has Risen Every Year Since 2023.
 

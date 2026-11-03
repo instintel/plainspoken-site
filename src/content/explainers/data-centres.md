@@ -13,7 +13,9 @@ draft: false
 
 *Updated Oct 23, 2026*
 
-A data centre is a building full of computer servers that store, process and send data. They are the machines behind cloud services and AI tools. Since February 2025, Malaysia has approved 27 large new ones with RM225.97 billion of planned investment, the Digital Ministry told Parliament on Oct 15, 2026.
+A data centre is a building full of computer servers that store, process and send data, the machines behind the cloud services and AI tools you use. Since February 2025, Malaysia has approved 27 large new ones with RM225.97 billion of planned investment, the Digital Ministry told Parliament on Oct 15, 2026.
+
+The IMF has named data centre investment among the things lifting growth in Malaysia and other Asian economies. Growth is measured by [GDP](/explainers/gdp/), the measure of how much the whole economy produces.
 
 ## Data Centres Do The Work Behind Apps And AI Tools.
 
@@ -25,27 +27,17 @@ Of the 27 approved projects, 16 are in Johor, 10 are in Selangor and one is in N
 
 Singapore's limits on land and power push big tech firms to nearby places, the OECD says, and Johor offers fast connections and direct fibre links to Singapore. In October 2026, DayOne, a Singapore-based builder, said it had secured another RM15 billion in bank financing to expand its Johor data centres.
 
-## Data Centres Use A Lot Of Electricity.
-
-According to the Ministry of Energy Transition and Water Transformation, data centres use about 7% of electricity this year. Its projections say that could reach as much as 31% by 2035. Tenaga Nasional Berhad (TNB) supplied power to 36 operating data centres in the first quarter of 2026, with another 23 under construction.
-
-Government rules say new projects are approved only once power and water supply are shown to be enough. It also says developers, not households, pay for the grid upgrades data centres need, and that domestic water tariffs won't be raised just to meet data centre demand.
-
 ## The Investment Is Big, But The Jobs Are Few.
 
-Across the 27 projects, the Digital Ministry expects 4,053 jobs, of which 3,523 are high-skilled. The OECD says the industry creates only a limited number of jobs compared with the scale of investment, and that it strains the grid and water supply in certain areas. Projects must also have at least 30% local content.
+Across the 27 projects, the Digital Ministry expects 4,053 jobs, of which 3,523 are high-skilled. The OECD says the industry creates only a limited number of jobs compared with the scale of investment.
 
-## What It Means For Your Money.
+Jobs on offer lean skilled, in areas such as engineering, cybersecurity and data management, which the OECD wants the sector to grow. It also wants more local firms to supply the software, maintenance and facility services these buildings need. Projects must also have at least 30% local content.
 
-Jobs on offer lean skilled, in areas such as engineering, cybersecurity and data management, which the OECD wants the sector to grow. It also wants more local firms to supply the software, maintenance and facility services these buildings need.
+## Data Centres Use A Lot Of Electricity.
 
-The IMF has named data centre investment among the things lifting growth in Malaysia and other Asian economies. Growth is measured by [GDP](/explainers/gdp/), the measure of how much the whole economy produces. And since the government says developers pay for grid upgrades, the plan is that your own electricity bill doesn't carry the cost.
+The OECD also says the industry strains the grid and water supply in certain areas. According to the Ministry of Energy Transition and Water Transformation, data centres use about 7% of electricity this year. Its projections say that could reach as much as 31% by 2035. Tenaga Nasional Berhad (TNB) supplied power to 36 operating data centres in the first quarter of 2026, with another 23 under construction.
 
-## The Numbers To Know.
-
-- 27 approved projects, worth RM225.97 billion, 16 of them in Johor
-- Data centres use about 7% of electricity this year, up to 31% by 2035 on the ministry's projection
-- 4,053 jobs expected from the 27 projects
+Government rules say new projects are approved only once power and water supply are shown to be enough. It also says developers, not households, pay for the grid upgrades data centres need, so the plan is that your own electricity bill doesn't carry the cost. And it says domestic water tariffs won't be raised just to meet data centre demand.
 
 ## Power Supply Is The Next Test.
 

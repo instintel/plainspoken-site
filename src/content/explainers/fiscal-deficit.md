@@ -13,9 +13,9 @@ draft: false
 
 *Updated Nov 2, 2026*
 
-Malaysia's budget deficit is the gap between what the federal government spends in a year and what it collects. The government covers the gap by borrowing. For 2027 the Ministry of Finance (MOF) targets a deficit of RM77.5 billion, or 3.3% of [GDP](/explainers/gdp/).
+Malaysia's budget deficit is the gap between what the federal government spends in a year and what it collects, a gap it covers by borrowing. For 2027 the Ministry of Finance (MOF) targets a deficit of RM77.5 billion, or 3.3% of [GDP](/explainers/gdp/), down from an estimated 3.6% in 2026.
 
-Revenue is the money the government collects, such as taxes and dividends from Petronas. Spending covers salaries, subsidies, interest and projects. Spending that revenue does not cover becomes new borrowing.
+Revenue is the money the government collects, such as taxes and dividends from Petronas. Spending covers salaries, subsidies, interest and projects. Budget 2027 puts fuel subsidies, the money behind [BUDI95](/explainers/budi95/), at about RM40 billion.
 
 ## The Deficit Is Shown As A Share Of GDP, So Years Can Be Compared.
 
@@ -33,27 +33,23 @@ If 2027 comes in at 3.3%, it would be the lowest since 2017. In 2021 the deficit
 
 Each year's borrowing adds to the federal government's debt, the total it owes. At the end of June 2026 that was RM1.38 trillion, or 63.1% of GDP. At the end of 2025 it was 65.2%. Debt as a share of GDP can fall even while the government still borrows, because the economy it is measured against grows too.
 
+Borrowed money has to be paid back with interest. MOF projects the government's debt servicing bill at RM57.3 billion in 2026, which is 15.8% of federal revenue. Every ringgit that goes to interest is a ringgit that can't go to something else in the Budget.
+
+Fitch Ratings counts the government's committed guarantees as well. On that wider measure it expects debt at about 74% of GDP in 2027, down from 77.3% in 2025. Fitch rates Malaysia BBB+ with a stable outlook.
+
 ## Two Targets Set The Direction.
 
 The Public Finance and Fiscal Responsibility Act 2023 sets a medium-term goal of a deficit of 3% of GDP or less and debt of 60% or less. Budget 2027 plans a deficit averaging 3.1% of GDP from 2027 to 2029, so the 3% goal is still ahead. Debt at 63.1% is above 60%.
 
 A separate ceiling limits statutory debt, which means the government's bonds and bills, to 65% of GDP. It stood at 61.9% at the end of March 2026.
 
-## Interest Is Part Of The Bill.
+## Higher Subsidies Or Weaker Revenue Could Lift The 2027 Deficit.
 
-Borrowed money has to be paid back with interest. MOF projects the government's debt servicing bill at RM57.3 billion in 2026, which is 15.8% of federal revenue. Every ringgit that goes to interest is a ringgit that can't go to something else in the Budget.
-
-## Other Counts Show A Higher Debt Figure.
-
-Fitch Ratings counts the government's committed guarantees as well. On that wider measure it expects debt at about 74% of GDP in 2027, down from 77.3% in 2025. Fitch rates Malaysia BBB+ with a stable outlook. The two figures measure different things, so they shouldn't be set side by side as one number.
-
-## What It Means For Your Money.
-
-Subsidies sit inside this Budget. Budget 2027 puts fuel subsidies, the money behind [BUDI95](/explainers/budi95/), at about RM40 billion. On Oct 24, 2026, Prime Minister Anwar Ibrahim said the cost could reach RM42 billion to RM45 billion a year if oil prices keep surging. OCBC says the 2027 deficit could end near 3.5% to 3.6% of GDP if revenue falls short or subsidy spending runs higher.
+On Oct 24, 2026, Prime Minister Anwar Ibrahim said the fuel subsidy bill could reach RM42 billion to RM45 billion a year if oil prices keep surging. OCBC says the 2027 deficit could end near 3.5% to 3.6% of GDP if revenue falls short or subsidy spending runs higher.
 
 When a headline announces a subsidy, a handout or a tax change, the deficit shows how much of the spending is paid from revenue and how much from borrowing.
 
-## When Things Change Next.
+## MPs Debate The Budget's Spending From Nov 2 To 26, 2026.
 
 - Oct 29, 2026: Parliament's Dewan Rakyat passed the Supply Bill 2027, the law behind Budget 2027, at the policy stage
 - Nov 2 to 26, 2026: committee stage, when MPs debate the Budget's spending ministry by ministry

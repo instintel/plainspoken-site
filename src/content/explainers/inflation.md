@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 26, 2026*
 
-Inflation is how fast prices are rising, compared with the same month a year earlier. Malaysia's inflation was 1.8% in September 2026, so the same mix of everyday spending cost 1.8% more than it did in September 2025.
+Inflation is how fast prices are rising, compared with the same month a year earlier, so it's what your pay has to keep up with to buy as much as before. Malaysia's inflation was 1.8% in September 2026, down from 1.9% in August. That means the same mix of everyday spending cost 1.8% more than it did in September 2025.
 
 It's measured every month by the Department of Statistics Malaysia (DOSM) with the consumer price index, or CPI.
 
@@ -29,15 +29,15 @@ DOSM also gives the change from the month before. Between August and September 2
 
 In September 2026, food and drinks rose 1.8%. Housing, water, electricity and gas rose 1.4%, down from 2.1% in August, and personal care and other services rose 2.8%. So the price rise you feel depends on what you spend most on.
 
-## What It Means For Your Money.
+## Your Savings Have To Keep Up With Inflation Too.
 
-If your pay goes up by less than inflation, it buys a little less than it did a year ago. Savings work the same way: money earning less than the inflation rate slowly loses what it can buy.
+Savings work the same way as pay: money earning less than the inflation rate slowly loses what it can buy.
 
 Inflation is also what Bank Negara Malaysia (BNM) watches when it sets the [Overnight Policy Rate (OPR)](/explainers/opr/), the rate behind floating-rate loans. On Oct 15, 2026, BNM's governor said the bank has "space for us to act accordingly" if price pressures rise.
 
 ## Malaysia's Inflation Was 1.8% In September 2026.
 
-It was down from 1.9% in August. The government expects inflation to average 1.5% to 2.5% in 2026, and 1.8% to 2.8% in 2027.
+The government expects inflation to average 1.5% to 2.5% in 2026, and 1.8% to 2.8% in 2027.
 
 ![Malaysia's inflation was 1.8% in September, down from 1.9% in August (Chart). Malaysia's inflation each month from November 2025 to September 2026, the rise in the consumer price index from a year earlier, in percent.](/images/explainers/inflation/chart-inflation-2026-10-26.png)
 

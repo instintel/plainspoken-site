@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 22, 2026*
 
-Malaysia's minimum wage is the lowest monthly pay an employer can legally offer a worker. It is RM1,700 a month today. Budget 2027 raises it to RM2,000 from June 1, 2027, a rise of RM300 a month.
+Malaysia's minimum wage is the lowest monthly pay an employer can legally offer a worker. Budget 2027 raises it from RM1,700 a month today to RM2,000 from June 1, 2027, a rise of RM300 a month.
 
 ## The Government Sets The Minimum Wage, And Employers Must Follow It.
 
@@ -21,35 +21,28 @@ The rate comes from a Minimum Wages Order. Not paying it is an offence under the
 
 The last rise was on Feb 1, 2025, from RM1,500 to RM1,700. It applied first to employers with five or more employees, and to professional services regardless of size. Employers with fewer than five employees had until Aug 1, 2025.
 
-## Budget 2027 Raises It To RM2,000 From June 1, 2027.
+## The Prime Minister Says The Rise Covers More Than Four Million Workers.
 
 Prime Minister Anwar Ibrahim announced the rise when he presented Budget 2027 on Oct 9, 2026. He said more than four million workers would be covered. Employers have until June 1, 2027 to get ready.
+
+Budget 2027 also sets a minimum starting salary of RM2,500 a month for semi-skilled jobs and graduates. It is a different measure from the minimum wage.
 
 ## Some Smaller Businesses Are Exempt For Now.
 
 Micro, small and medium-sized businesses, called MSMEs, with annual sales below RM50 million are excused from applying the new rate for now, to give them time to adjust how they run. The Malaysian Employers Federation (MEF) welcomed the exemption. It also asked for clear rules on who qualifies and how the RM50 million sales figure will be assessed.
 
-## A Separate RM2,500 Starting Salary Was Also Announced.
-
-Budget 2027 also sets a minimum starting salary of RM2,500 a month for semi-skilled jobs and graduates. It is a different measure from the minimum wage.
-
-## What It Means For Your Money.
+## Your Pay Floor Rises In June 2027 If Your Employer Is Covered.
 
 If you earn RM1,700 and your employer is covered, your pay floor goes up by RM300 a month from June 2027. If you earn more than that, the rise doesn't change your pay directly.
 
 If you hire people, the date to mark is June 1, 2027. Check whether your annual sales are under RM50 million, because that decides whether you can use the exemption for now. A pay rise only helps if it keeps up with prices, and [inflation](/explainers/inflation/) is the measure of how fast they are rising.
 
-## The Numbers To Know.
+## The RM2,000 Rate Starts On Tuesday, June 1, 2027.
 
 - Minimum wage now: RM1,700 a month, since Feb 1, 2025
-- From June 1, 2027: RM2,000 a month
 - Exemption for now: MSMEs with annual sales below RM50 million
-- Workers covered: more than four million, according to the Prime Minister
-
-## The Next Dates.
-
-- Tuesday, June 1, 2027: the RM2,000 rate starts for employers outside the exemption
 - Date not set: MEF has asked for clear rules on who qualifies for the exemption
+- Tuesday, June 1, 2027: the RM2,000 rate starts for employers outside the exemption
 
 ## Sources
 

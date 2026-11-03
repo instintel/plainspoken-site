@@ -13,7 +13,7 @@ draft: false
 
 *Updated Oct 27, 2026*
 
-Bankruptcy in Malaysia is when the High Court declares you unable to pay your debts. A creditor can only ask for it if you owe them at least RM100,000. From then on, the Malaysian Insolvency Department (MdI) handles your case until you're discharged, which means officially cleared.
+Bankruptcy in Malaysia is when the High Court declares you unable to pay your debts. A creditor can only ask for it if you owe them at least RM100,000, a minimum Budget 2027 proposed raising to RM150,000 with no start date yet. From then on, the Malaysian Insolvency Department (MdI) handles your case until you're discharged, which means officially cleared.
 
 ## The High Court Makes You Bankrupt, And MdI Runs Your Case.
 
@@ -29,7 +29,7 @@ MdI lists what changes. You face limits on going abroad. You can't act as a comp
 - **MdI certificate:** MdI's Director General can discharge you, subject to any creditor's objection.
 - **Section 33C discharge:** Section 33C of the Insolvency Act 1967 allows discharge in as little as three years, for those who meet its conditions.
 
-The Fast Track Discharge Programme puts single parents, small-business borrowers, scam victims and buyers of homes in abandoned housing projects first. Eligible applications finish within 36 days if the conditions are met and no creditor objects, and you apply online through MdI's e-Insolvensi portal.
+The Fast Track Discharge Programme puts single parents, small-business borrowers, scam victims and buyers of homes in abandoned housing projects first. Eligible applications finish within 36 days if the conditions are met and no creditor objects. You apply online through MdI's e-Insolvensi portal.
 
 ## New Cases Rose For A Second Year In 2025.
 
