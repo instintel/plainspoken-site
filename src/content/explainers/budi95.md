@@ -2,7 +2,7 @@
 title: "What BUDI95 Is, And What It Does To Your Petrol Bill"
 term: "BUDI95"
 date: 2026-10-15
-lastmod: 2026-10-22
+lastmod: 2026-11-03
 summary: "BUDI95 lets eligible Malaysians buy RON95 petrol at RM1.99 a litre, up to a monthly limit. The government pays the rest of the price."
 topic: "Fuel and subsidies"
 tags: ["budi95", "ron95 price", "harga minyak", "fuel subsidy", "ministry of finance"]
@@ -11,9 +11,9 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 22, 2026*
+*Updated Nov 3, 2026*
 
-BUDI95 is the government scheme that lets eligible Malaysians buy RON95 petrol at RM1.99 a litre, up to a monthly limit. Anyone outside the scheme, or past their limit, pays the full price, which the Ministry of Finance (MOF) resets every week.
+BUDI95 is the government scheme that lets eligible Malaysians buy RON95 petrol at RM1.99 a litre, up to a monthly limit. Anyone outside the scheme, or past their limit, pays the full price, RM4.42 a litre for Oct 29 to Nov 4, 2026, which the Ministry of Finance (MOF) resets every week.
 
 The full price is what a litre costs with no help from the government, often called the unsubsidised price. A subsidy is the part of the price the government pays for you.
 
@@ -27,34 +27,37 @@ A few groups get special treatment. Full-time e-hailing drivers get a bigger all
 
 Your 300 litres reset on the 1st of every month. Once you've used them up, every extra litre that month is charged at the full price.
 
-That limit has already moved once. The government cut it to 200 litres from April 1, 2026, when oil got expensive, then put it back to 300 litres from Sep 1, 2026. The BUDI95 price itself has stayed the same the whole time.
+That limit has already moved once. The government cut it to 200 litres from April 1, 2026, citing the conflict in the Middle East, then put it back to 300 litres from Sep 1, 2026. The BUDI95 price itself has stayed the same the whole time.
 
-## The Government's Share Grew From 61 Sen To RM2.33 A Litre.
+## The Government's Share Grew From 61 Sen To RM2.43 A Litre.
 
 On every BUDI95 litre, the government covers the difference between the BUDI95 price and that week's full price. When the scheme started, the full price of RON95 was RM2.60, so the government's part was 61 sen a litre.
 
-For Oct 22 to 28, 2026, the full price is RM4.32. That means the government now covers RM2.33 of every BUDI95 litre, or 54% of the full price, which is more than you pay yourself. A week earlier, at RM4.62, its part was RM2.63, or 57%.
+For Oct 29 to Nov 4, 2026, the full price is RM4.42. That means the government now covers RM2.43 of every BUDI95 litre, or 55% of the full price, which is more than you pay yourself. A week earlier, at RM4.32, its part was RM2.33, or 54%.
 
-Across millions of subsidised litres, that makes fuel help a big bill for the government. Budget 2027 puts spending on fuel subsidies at about RM40 billion for 2027.
+Budget 2027 puts spending on fuel subsidies at about RM40 billion for 2027. On Oct 24, 2026, Prime Minister Anwar Ibrahim said the government would keep the BUDI95 price where it is. If oil prices keep rising, he said, the cost could reach RM42 billion to RM45 billion a year.
+
+![The government pays RM2.43 of every BUDI95 litre this week (Diagram). How the full price of a litre of RON95 is split for an eligible BUDI95 driver, Oct 29 to Nov 4, 2026, in ringgit.](/images/explainers/budi95/diagram-budi95-2026-11-03.png)
 
 ## The Weekly Full Price Reaches You Past Your Limit.
 
 If you drive your own car and stay within 300 litres a month, the weekly price changes don't touch your tank.
 
-Things change if you go past your limit, or if you fill up for a business that isn't covered by the scheme. Those litres are charged at whatever MOF set for that week, and that price has gone from RM2.60 a year ago to RM4.32 for Oct 22 to 28, 2026.
+Things change if you go past your limit, or if you fill up for a business that isn't covered by the scheme. Those litres are charged at whatever MOF set for that week, and that price has gone from RM2.60 a year ago to RM4.42 for Oct 29 to Nov 4, 2026.
 
 Diesel works the same way under a separate scheme, BUDI Diesel, where eligible diesel vehicle owners pay RM2.10 a litre.
 
 ## MOF Sets Prices Weekly, And Your Allowance Resets Monthly.
 
 - Every week, usually on Wednesday evening: MOF announces the next week's full fuel prices, which apply from Thursday
-- Nov 1, 2026: everyone's BUDI95 allowance resets to 300 litres for the month
+- Wednesday, Nov 4, 2026: MOF's full prices for Nov 5 to 11, 2026, if it keeps its usual weekly timing
+- Tuesday, Dec 1, 2026: everyone's BUDI95 allowance resets to 300 litres for the month
 
 ## Sources
 
-- [Ministry of Finance: Malaysians eligible for 300 litres of RON95 a month at RM1.99](https://www.mof.gov.my/portal/en/news/press-citations/malaysians-eligible-for-300l-ron95-petrol-a-month-at-rm1-99-mof)
-- [Ministry of Finance: full-time e-hailing drivers eligible for more BUDI95 from Oct 15, 2025](https://mof.gov.my/portal/en/news/press-citations/full-time-e-hailing-drivers-eligible-for-budi95-petrol-subsidy-starting-oct-15-mof)
-- [Ministry of Finance: retail fuel prices, Oct 16 to 22, 2025](https://www.mof.gov.my/portal/en/news/press-release/retail-price/retail-price-of-petroleum-products-from-16-october-2025-to-22-october-2025)
-- [Business Today: RON95 and RON97 prices drop 30 sen from Oct 22](https://www.businesstoday.com.my/2026/10/21/ron95-ron97-prices-drop-30-sen-diesel-down-10-sen-from-oct-22/)
-- [New Straits Times: BUDI95 limit restored to 300 litres from Sep 1](https://www.nst.com.my/amp/news/nation/2026/08/1522094/budi95-quota-restored-300-litres-diesel-allocation-raised-sept-1watch)
-- [Bernama: BUDI95 questions answered on the official portal](https://www.bernama.com/en/general/news.php?id=2471395)
+- [Ministry of Finance: full-time e-hailing drivers and boat owners eligible for BUDI95, Oct 1, 2025](https://mof.gov.my/portal/en/news/press-citations/full-time-e-hailing-drivers-eligible-for-budi95-petrol-subsidy-starting-oct-15-mof)
+- [Ministry of Finance: non-subsidised RON95 set at RM2.60 as BUDI95 begins](https://mof.gov.my/portal/en/news/press-release/non-subsidised-ron95-retail-price-set-at-rm2-60-per-litre-as-budi95-commences)
+- [Ministry of Finance: BUDI MADANI monthly limit back to 300 litres from Sep 1, 2026](https://mof.gov.my/portal/en/news/press-citations/budi-madani-monthly-eligibility-limit-raised-back-to-300-litres-from-today)
+- [The Star: BUDI95 limit reduced to 200 litres from April 1](https://www.thestar.com.my/news/nation/2026/03/27/budi95-limit-reduced-to-200-litres)
+- [The Edge Malaysia: unsubsidised fuel prices rise 10 sen, diesel up 20 sen for Oct 29 to Nov 4](https://theedgemalaysia.com/node/823691)
+- [The Star: government prepared to absorb fuel subsidy costs of up to RM45 billion a year](https://www.thestar.com.my/news/nation/2026/10/24/govt-prepared-to-absorb-fuel-subsidy-costs-of-up-to-rm45bil-a-year-says-anwar)

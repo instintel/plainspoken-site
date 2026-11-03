@@ -2,7 +2,7 @@
 title: "What The Median Wage Is, And How Malaysia Measures Pay"
 term: "Median Wage"
 date: 2026-10-28
-lastmod: 2026-10-28
+lastmod: 2026-11-03
 summary: "The median wage is the pay of the worker in the exact middle. Malaysia's median monthly wage was RM3,000 in June 2026."
 topic: "Jobs and pay"
 tags: ["median wage malaysia", "gaji median", "dosm wages", "salary malaysia", "minimum wage malaysia"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Oct 28, 2026*
+*Updated Nov 3, 2026*
 
 The median wage is the pay of the worker in the exact middle: line everyone up from lowest to highest pay, and half earn more than the median while half earn less. Malaysia's median monthly wage for citizens in formal jobs was RM3,000 in June 2026, up 4.8% from a year earlier.
 
@@ -21,9 +21,9 @@ A pay rise means more when you set it against prices. Over the same year, [consu
 
 An average adds up everyone's pay and divides it by the number of workers, so a few very high earners can pull it up. The median doesn't move when a few people at the top earn more, which is why it's closer to what a typical worker takes home.
 
-## DOSM Measures It Every Quarter, From EPF And SOCSO Records.
+## The Statistics Department Measures It Every Quarter, From Retirement Savings And Social Security Records.
 
-The Department of Statistics Malaysia (DOSM) publishes the figure in its quarterly Employee Wages Statistics (Formal Sector) report. The numbers come from contribution records at the Employees Provident Fund (EPF) and the Social Security Organisation (SOCSO), so they cover Malaysian citizens with formal jobs that pay into those schemes. Pay includes bonuses, commissions and allowances. People who work for themselves and unpaid family workers are not counted.
+Each quarter, the Department of Statistics Malaysia (DOSM) publishes the figure in its Employee Wages Statistics (Formal Sector) report. The numbers come from contribution records at the Employees Provident Fund (EPF) and the Social Security Organisation (SOCSO), so they cover Malaysian citizens with formal jobs that pay into those schemes. Pay includes bonuses, commissions and allowances. People who work for themselves and unpaid family workers are not counted.
 
 ## Your Pay Against RM3,000 Is Only Part Of The Picture.
 
@@ -37,13 +37,13 @@ In June 2026 it was RM3,000, up RM136 from RM2,864 in June 2025. It was RM2,745 
 
 ## The Next Figures Come In DOSM's Third-Quarter Report.
 
-DOSM's next quarterly Employee Wages Statistics report will cover July to September 2026. Until then, RM3,000 for June 2026 is the latest median, and the next report will show whether pay kept rising faster than prices.
+DOSM's next quarterly Employee Wages Statistics report will cover July to September 2026 and show whether pay kept rising faster than prices. Until then, RM3,000 for June 2026 is the latest median, and DOSM's OpenDOSM data site lists the next update for Sunday, Jan 31, 2027.
 
 ## Sources
 
 - [Department of Statistics Malaysia (DOSM), Employee Wages Statistics (Formal Sector), Second Quarter 2025](https://dosm.gov.my/portal-main/release-content/employee-wages-statistics-formal-sector-second-quarter-2025)
 - [Department of Statistics Malaysia (DOSM), Employee Wages Statistics (Formal Sector) Report, Second Quarter 2024](https://storage.dosm.gov.my/labour/formal_wages_2024-q2.pdf)
 - [Department of Statistics Malaysia (DOSM), Employee Wages Statistics (Formal Sector), Second Quarter 2023](https://www.dosm.gov.my/portal-main/release-content/employee-wages-statistics-formal-sector-report-second-quarter-)
-- [Media Selangor, Malaysia's median formal sector wage rises to RM3,000, Oct 2026](https://mediaselangor.com/en/2026/10/403442)
-- [Business Today, Malaysia records median monthly wage growth in June, rising 4.8% to RM3,000, Oct 27, 2026](https://www.businesstoday.com.my/2026/10/27/malaysia-records-median-monthly-wage-growth-in-june-rising-4-8-to-rm3000/)
+- [Department of Statistics Malaysia (DOSM), OpenDOSM Formal Sector Wages dashboard, next update Jan 31, 2027](https://open.dosm.gov.my/dashboard/formal-sector-wages)
 - [Department of Statistics Malaysia (DOSM), Consumer Price Index, June 2026](https://www.dosm.gov.my/portal-main/release-content/consumer-price-index-june2026)
+- [The Edge Malaysia, Malaysia's median formal sector wage rises to RM3,000, but income gap remains wide, Oct 27, 2026](https://theedgemalaysia.com/node/823441)
