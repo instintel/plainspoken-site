@@ -2,7 +2,7 @@
 title: "What Moves The Ringgit, And What It Does To Your Money"
 term: "Ringgit"
 date: 2026-10-15
-lastmod: 2026-11-03
+lastmod: 2026-11-07
 summary: "The ringgit's value is how many ringgit one US dollar costs. A stronger ringgit makes anything priced in US dollars cheaper for you."
 topic: "The ringgit and trade"
 tags: ["ringgit", "ringgit to us dollar", "exchange rate", "nilai ringgit", "bank negara malaysia"]
@@ -11,9 +11,9 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Nov 3, 2026*
+*Updated Nov 7, 2026*
 
-The ringgit's value is how many ringgit it takes to buy another currency, most often the US dollar, so it moves what you pay for anything priced in one. On Nov 2, 2026, one US dollar cost about RM4.07, down from about RM4.19 at the end of October 2025. When that number goes down, the ringgit is stronger and anything priced in US dollars costs you less. When it goes up, it costs you more.
+The ringgit's value is how many ringgit it takes to buy another currency, most often the US dollar, so it moves what you pay for anything priced in one. On Nov 6, 2026, one US dollar cost about RM4.06, down from about RM4.19 at the end of October 2025. When that number goes down, the ringgit is stronger and anything priced in US dollars costs you less. When it goes up, it costs you more.
 
 That number is called the exchange rate.
 
@@ -38,24 +38,25 @@ The exchange rate reaches you in four ways:
 
 That last one works the other way too. BNM says a weaker ringgit is good for a business that depends on exports.
 
-## The Ringgit Was About RM4.07 To The US Dollar On Nov 2, 2026.
+## The Ringgit Was About RM4.06 To The US Dollar On Nov 6, 2026.
 
-On Nov 2, 2026, the ringgit ended at 4.0695 to the US dollar, a little weaker than 4.0555 at the end of October. So something priced at US$100, like an online course or a part your business imports, cost about RM407, against about RM419 at the end of October 2025.
+On Nov 6, 2026, the ringgit ended at 4.0565 to the US dollar, almost exactly where it ended October, at 4.0555. So something priced at US$100, like an online course or a part your business imports, cost about RM406, against about RM419 at the end of October 2025.
 
 Over that year the ringgit moved both ways. One US dollar cost 4.1860 ringgit at the end of October 2025, and only 3.8910 at the end of February 2026, the lowest of the 13 month-end closes in the chart below.
 
 ![The ringgit ended October 2026 stronger than a year earlier (Chart). Ringgit needed for one US dollar at the 6pm close on each month's last trading day, October 2025 to October 2026. Lower means a stronger ringgit.](/images/explainers/ringgit/chart-ringgit-2026-11-03.png)
 
-## These Dates Can Move It Next.
+## These Are The Next Dates For The Ringgit.
 
-- Thursday, Nov 5, 2026: BNM's next decision on the [Overnight Policy Rate (OPR)](/explainers/opr/), Malaysia's main interest rate
+- Monday, Nov 30, 2026: the last trading day of November, whose close becomes the chart's next month-end point
 - Early Thursday, Dec 10, 2026, Malaysian time: the US Federal Reserve's next interest rate decision
+- Thursday, Jan 21, 2027: BNM's next decision on the [Overnight Policy Rate (OPR)](/explainers/opr/), Malaysia's main interest rate, which it kept at 2.75% on Nov 5, 2026
 
 ## Sources
 
 - [Bank Negara Malaysia: ringgit exchange rate policy](https://www.bnm.gov.my/monetary-stability/ringgit)
 - [The Star: Bank Negara rejects using ringgit to help exports](https://www.thestar.com.my/business/business-news/2026/01/30/bank-negara-rejects-using-ringgit-to-help-exports)
-- [Bernama: ringgit ends lower against US dollar on Nov 2, 2026](https://www.bernama.com/en/market/news.php?id=2629097)
+- [Bernama: ringgit slips against US dollar on Nov 6, 2026](https://www.bernama.com/en/market/news.php?id=2631031)
 - [The Star: ringgit ends firmer on Oct 31, 2025](https://www.thestar.com.my/business/business-news/2025/10/31/ringgit-ends-firmer-on-improved-risk-sentiment-easing-trade-tensions-between-us-and-china)
-- [Bank Negara Malaysia: MPC meeting schedule for 2026](https://www.bnm.gov.my/monetary-stability/mpc-meetings/-/tag/mpc-2026)
+- [Bank Negara Malaysia: Monetary Policy Statement, Nov 5, 2026, with the 2027 meeting dates](https://www.bnm.gov.my/-/monetary-policy-statement-05112026)
 - [Federal Reserve: December 2026 calendar](https://www.federalreserve.gov/newsevents/2026-december.htm)
