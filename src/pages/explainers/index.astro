@@ -15,7 +15,12 @@ const termOf = (e: { slug: string; data: { title: string; term?: string } }) => 
 
 const entries = (await getCollection('explainers'))
   .filter((e) => !e.data.draft)
-  .map((e) => ({ e, term: termOf(e) }))
+  .map((e) => {
+    // Thumbnail: the page's own image if set, otherwise the first image in its body (its chart).
+    const fm = e.data.image;
+    const inBody = e.body.match(/!\[[^\]]*\]\((\/images\/[^)\s]+)\)/)?.[1];
+    return { e, term: termOf(e), thumb: fm ?? inBody, isChart: !fm && !!inBody };
+  })
   .sort((a, b) => a.term.localeCompare(b.term, 'en', { sensitivity: 'base' }));
 
 const letterOf = (term: string) => {
@@ -73,10 +78,17 @@ const description =
       <div class="glossary-letter" id={`letter-${g.letter === '#' ? 'num' : g.letter}`}>
         <h2 class="glossary-letter__head">{g.letter}</h2>
         <dl class="glossary-list">
-          {g.items.map(({ e, term }) => (
+          {g.items.map(({ e, term, thumb, isChart }) => (
             <div class="glossary-entry">
-              <dt><a href={`/explainers/${e.slug}/`}>{term}</a></dt>
-              <dd>{e.data.summary}</dd>
+              {thumb && (
+                <a href={`/explainers/${e.slug}/`} class={`thumb-item__img${isChart ? ' thumb-item__img--chart' : ''}`} tabindex="-1" aria-hidden="true">
+                  <img src={thumb} alt="" loading="lazy" width="128" height="72" />
+                </a>
+              )}
+              <div class="glossary-entry__body">
+                <dt><a href={`/explainers/${e.slug}/`}>{term}</a></dt>
+                <dd>{e.data.summary}</dd>
+              </div>
             </div>
           ))}
         </dl>
@@ -129,7 +141,9 @@ const description =
     border-bottom: 2px solid var(--color-ink);
   }
   .glossary-list { margin: 0; }
-  .glossary-entry { padding: var(--space-2) 0; border-bottom: 1px solid var(--color-rule); }
+  .glossary-entry { padding: var(--space-2) 0; border-bottom: 1px solid var(--color-rule); display: flex; gap: var(--space-3); align-items: flex-start; }
+  .glossary-entry__body { min-width: 0; }
+  @media (max-width: 600px) { .glossary-entry { gap: 14px; } .glossary-entry .thumb-item__img img { width: 96px; height: 54px; } }
   .glossary-entry dt { margin: 0; }
   .glossary-entry dt a {
     text-decoration: none;

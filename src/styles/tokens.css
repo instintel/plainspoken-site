@@ -264,6 +264,17 @@ a:hover { color: var(--color-accent); }
 .crumbs a { color: var(--color-ink-50); text-decoration: none; }
 .crumbs a:hover { color: var(--color-ink); }
 
+/* Lists with a thumbnail beside each piece (Trending, Daily Briefs, Explainers) */
+.thumb-list { list-style: none; padding: 0; margin: 0; }
+.thumb-item { padding: var(--space-3) 0; border-bottom: 1px solid var(--color-rule); display: flex; gap: var(--space-3); align-items: flex-start; }
+.thumb-item__img { flex: 0 0 auto; display: block; }
+.thumb-item__img img { width: 128px; height: 72px; max-width: none; margin: 0; border: 0; object-fit: cover; display: block; }
+.thumb-item__img.thumb-item__img--chart img { object-fit: contain; background: #fff; border: 1px solid var(--color-rule); }
+.thumb-item__body { min-width: 0; }
+.thumb-item__title { text-decoration: none; color: var(--color-ink); font-size: 18px; font-weight: 500; }
+.thumb-item__title:hover { color: var(--color-accent); }
+.thumb-item__text { margin: var(--space-1) 0 0; color: var(--color-ink-70); font-size: 15px; }
+
 /* Explainers */
 .explainer-topic { margin-bottom: var(--space-5); }
 .explainer-topic h2 { font-size: 22px; margin: var(--space-2) 0 var(--space-2); }
@@ -341,6 +352,10 @@ a:hover { color: var(--color-accent); }
   .ask-block::before { display: block; content: "Ask Plainspoken"; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); }
   .ask-block .button { margin-top: 4px; }
   .explainer-list li { padding: 12px 0; }
+  .thumb-item { gap: 14px; padding: 18px 0; }
+  .thumb-item__img img { width: 96px; height: 54px; }
+  .thumb-item__title { font-size: 17px; }
+  .thumb-item__text { font-size: 14px; }
   .site-footer { margin-top: 16px; }
   .site-footer__inner { padding: 22px 16px; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 0 14px; }
   .ps-mark--small { gap: 7px; }

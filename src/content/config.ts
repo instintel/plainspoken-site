@@ -35,6 +35,8 @@ const explainers = defineCollection({
     tags: z.array(z.string()).default([]),
     author: z.string().optional(),
     type: z.string().optional(),
+    // Optional list thumbnail (a photo). When missing, the hub shows the page's first image (its chart).
+    image: z.string().optional(),
     draft: z.boolean().default(true),
   }),
 });
