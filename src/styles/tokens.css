@@ -344,6 +344,8 @@ a:hover { color: var(--color-accent); }
   .panel-grid { grid-template-columns: 1fr; gap: 12px; }
   .lead-brief { padding: 20px; gap: 16px; margin: 0 -20px 32px; }
   .home-main { padding-top: 0; padding-bottom: 32px; }
+  /* A section that opens the page (Trending) needs air under the menu */
+  .home-main > .home-section:first-child { padding-top: 28px; }
   .home-section { padding-bottom: 32px; }
   .lead-brief { margin-top: 0; border-top: 0; }
   .section-head { margin-bottom: 14px; }
