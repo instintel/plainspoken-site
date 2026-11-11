@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const allBriefs = (await getCollection('daily-briefs')).filter((b) => !b.data.draft);
+const hasImage = (src?: string) => !!src && (src.startsWith('/') || src.startsWith('http'));
 const briefs = allBriefs.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 <Base title="Daily Briefs" description="Every Plainspoken Daily Brief: the one thing that moved Malaysia's economy and your money each morning, explained plainly.">
@@ -12,15 +13,21 @@ const briefs = allBriefs.sort((a, b) => b.data.date.valueOf() - a.data.date.valu
   <section class="container" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
     <span class="eyebrow">Daily Briefs</span>
     <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-4);">All Daily Briefs</h1>
-    <ul style="list-style: none; padding: 0; margin: 0;">
+    <ul class="thumb-list">
       {briefs.map((b) => (
-        <li style="padding: var(--space-3) 0; border-bottom: 1px solid var(--color-rule); display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-3);">
-          <a href={`/daily-briefs/${b.slug}/`} style="text-decoration: none; color: var(--color-ink); font-size: 18px; font-weight: 500;">
-            {b.data.title}
-          </a>
-          <span class="meta-date" style="white-space: nowrap;">
-            {b.data.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-          </span>
+        <li class="thumb-item">
+          {hasImage(b.data.image) && (
+            <a href={`/daily-briefs/${b.slug}/`} class="thumb-item__img" tabindex="-1" aria-hidden="true">
+              <img src={b.data.image} alt="" loading="lazy" width="128" height="72" />
+            </a>
+          )}
+          <div class="thumb-item__body">
+            <a href={`/daily-briefs/${b.slug}/`} class="thumb-item__title">{b.data.title}</a>
+            {b.data.summary && <p class="thumb-item__text">{b.data.summary}</p>}
+            <span class="meta-date">
+              {b.data.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </span>
+          </div>
         </li>
       ))}
     </ul>
