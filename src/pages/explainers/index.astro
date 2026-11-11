@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { breadcrumbLd, ldList } from '../../lib/seo';
+import { budgetYears } from '../../lib/budget';
 
 // A to Z glossary. Each explainer is listed under the first letter of its short
 // name (`term` in its front matter). When a page has no term, one is derived
@@ -30,6 +31,9 @@ for (const item of entries) {
   else letters.push({ letter, items: [item] });
 }
 
+// The latest Budget series sits under Explainers, linked to its page of topics.
+const [budgetLatest] = await budgetYears();
+
 const description =
   "Plain explanations of the things that move Malaysia's economy and your money: interest rates, fuel prices, the ringgit, jobs, savings and the Budget.";
 ---
@@ -45,6 +49,15 @@ const description =
     <span class="eyebrow">Explainers</span>
     <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-2);">Malaysia's Money, Explained</h1>
     <p style="color: var(--color-ink-70); margin: 0 0 var(--space-4);">{description} Each page answers one question first, then shows what it means for you.</p>
+
+    {budgetLatest && (
+      <a href={`/budget/${budgetLatest.year}/`} class="budget-callout">
+        <span class="eyebrow">Budget {budgetLatest.year}</span>
+        <span class="budget-callout__title">Budget {budgetLatest.year}, for your money</span>
+        <span class="budget-callout__text">All {budgetLatest.pages.length} topics in one place: what changes for your tax, pay, cash aid, loans and home.</span>
+        <span class="back-link">See all Budget {budgetLatest.year} topics →</span>
+      </a>
+    )}
 
     {entries.length === 0 && (
       <p style="color: var(--color-ink-50);">The first explainers are on their way.</p>
@@ -73,6 +86,20 @@ const description =
 </Base>
 
 <style>
+  .budget-callout {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 0 var(--space-5);
+    padding: var(--space-3);
+    border: 1px solid var(--color-rule);
+    background: var(--color-raised);
+    text-decoration: none;
+    color: var(--color-ink);
+  }
+  .budget-callout__title { font-family: var(--font-display); font-size: 24px; font-weight: 500; line-height: 1.25; }
+  .budget-callout__text { color: var(--color-ink-70); font-size: 15px; }
+  .budget-callout:hover .budget-callout__title { color: var(--color-accent); }
   .glossary-index {
     display: flex;
     flex-wrap: wrap;

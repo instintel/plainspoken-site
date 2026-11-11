@@ -202,6 +202,8 @@ a:hover { color: var(--color-accent); }
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 28px;
 }
+/* Keeps cards at card size when a row has only one or two (the Trending strip on the front page) */
+.brief-grid--fill { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .brief-card { text-decoration: none; color: var(--color-ink); display: flex; flex-direction: column; gap: 10px; }
 .brief-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border: 1px solid var(--color-rule); }
 .brief-card__title { font-family: var(--font-display); font-weight: 500; font-size: 21px; line-height: 1.25; }
