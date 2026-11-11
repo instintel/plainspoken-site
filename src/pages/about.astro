@@ -16,9 +16,10 @@ const description =
   jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'About Us', path: '/about/' }]))}
 >
   <div class="container" style="padding-top: var(--space-4);">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › About Us</nav>
+    <a href="/" class="back-link">← Back to Home</a>
   </div>
-  <article class="container prose prose--article" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+  <article class="container" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+    <div class="prose prose--article">
     <h1 class="display" style="font-size: 32px; border-top: 1px solid var(--color-ink); padding-top: 20px; margin-top: 0;">About Us</h1>
 
     <p>The idea behind Plainspoken was conceived out of necessity rather than a vision. A lot of us get our news between a TikTok and a Grab ride. Our parents had the morning papers, while we're the social media generation. We have a phone full of notifications and distractions, but not much time to work out which ones actually matter for our money. Also, most economic matters simply don't fit into one-line posts.</p>
@@ -32,5 +33,6 @@ const description =
     <p>You don't need to know what {oprUrl ? <a href={oprUrl}>the OPR</a> : 'the OPR'} is. We'll explain it when it matters.</p>
 
     <p>We're called Plainspoken, so there's nowhere to hide. If a sentence needs a dictionary, we got it wrong. {SITE.askUrl ? <a href={SITE.askUrl} rel="noopener">Tell us</a> : 'Tell us'} and we'll have another go!</p>
+    </div>
   </article>
 </Base>
