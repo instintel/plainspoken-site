@@ -9,15 +9,20 @@ const briefs = allBriefs.sort((a, b) => b.data.date.valueOf() - a.data.date.valu
 const [lead, ...rest] = briefs;
 const secondary = rest.slice(0, 4);
 
+// Trending pieces go first on the front page (operator ruling, Nov 11, 2026)
+const trending = (await getCollection('trending'))
+  .filter((t) => !t.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 4);
+
 const commentary = (await getCollection('commentary')).filter((c) => !c.data.draft);
 const explainers = (await getCollection('explainers'))
   .filter((e) => !e.data.draft)
   .sort((a, b) => (b.data.lastmod ?? b.data.date).valueOf() - (a.data.lastmod ?? a.data.date).valueOf())
   .slice(0, 6);
 
-// The latest Budget series: its feature and the first few parts
+// The latest Budget series now sits under Explainers, as one link to its page of topics
 const [budgetLatest] = await budgetYears();
-const budgetPages = budgetLatest ? budgetLatest.pages.slice(0, 4) : [];
 
 // Only treat real paths/URLs as images ("No image" in frontmatter means none)
 const hasImage = (src?: string) => !!src && (src.startsWith('/') || src.startsWith('http'));
@@ -29,6 +34,26 @@ const shortDate = (d: Date) =>
   <h1 class="sr-only">Plainspoken: From Wall Street to Wallet Street, Making Sens of the World's Money</h1>
 
   <div class="container home-main">
+    {trending.length > 0 && (
+      <section class="home-section">
+        <div class="section-head">
+          <span class="eyebrow eyebrow--accent">Trending</span>
+        </div>
+        <div class="brief-grid brief-grid--fill">
+          {trending.map((t) => (
+            <a href={`/trending/${t.slug}/`} class="brief-card">
+              {hasImage(t.data.image) && <img src={t.data.image} alt="" loading="lazy" />}
+              <span class="meta-date">{shortDate(t.data.date)}</span>
+              <span class="brief-card__title">{t.data.title}</span>
+            </a>
+          ))}
+        </div>
+        <div style="margin-top: var(--space-3);">
+          <a href="/trending/" class="back-link">View all Trending →</a>
+        </div>
+      </section>
+    )}
+
     {!lead && (
       <p style="color: var(--color-ink-50);">No published briefs yet.</p>
     )}
@@ -69,25 +94,6 @@ const shortDate = (d: Date) =>
       </section>
     )}
 
-    {budgetLatest && (
-      <section class="home-section">
-        <div class="section-head">
-          <span class="eyebrow">Budget {budgetLatest.year}</span>
-        </div>
-        <div class="panel-grid">
-          {budgetPages.map((p) => (
-            <a href={`/budget/${p.slug}/`} class={hasImage(p.data.image) ? 'panel-card' : 'panel-card panel-card--text'}>
-              {hasImage(p.data.image) && <img src={p.data.image} alt="" loading="lazy" />}
-              <span class="panel-card__title">{p.data.title}</span>
-            </a>
-          ))}
-        </div>
-        <div style="margin-top: var(--space-3);">
-          <a href={`/budget/${budgetLatest.year}/`} class="back-link">All of Budget {budgetLatest.year} →</a>
-        </div>
-      </section>
-    )}
-
     {explainers.length > 0 && (
       <section class="home-section">
         <div class="section-head">
@@ -101,6 +107,11 @@ const shortDate = (d: Date) =>
             </li>
           ))}
         </ul>
+        {budgetLatest && (
+          <p style="margin: var(--space-3) 0 0; max-width: var(--container-narrow);">
+            <a href={`/budget/${budgetLatest.year}/`}>Budget {budgetLatest.year}, for your money</a>: all the topics in one place.
+          </p>
+        )}
         <div style="margin-top: var(--space-3);">
           <a href="/explainers/" class="back-link">View all explainers →</a>
         </div>

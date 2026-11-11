@@ -14,10 +14,10 @@ const description =
 <Base
   title="The Budget, for your money"
   description={description}
-  jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Budget', path: '/budget/' }]))}
+  jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Explainers', path: '/explainers/' }, { name: 'Budget', path: '/budget/' }]))}
 >
   <div class="container" style="padding-top: var(--space-4);">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Budget</nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/explainers/">Explainers</a> › Budget</nav>
   </div>
   <section class="container prose" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
     <span class="eyebrow">Budget</span>
