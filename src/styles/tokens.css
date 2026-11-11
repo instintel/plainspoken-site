@@ -111,7 +111,7 @@ a:hover { color: var(--color-accent); }
 .site-header__inner {
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 34px var(--space-3) 22px;
+  padding: 46px var(--space-3) 22px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -335,7 +335,7 @@ a:hover { color: var(--color-accent); }
   .ps-mark__word { font-size: 32px; }
   .ps-mark__square { width: 12px; height: 12px; }
   /* Phone header: logo centred, hairline, then the five sections spread across the full width */
-  .site-header__inner { flex-direction: column; align-items: center; gap: 12px; padding: 24px 20px 10px; }
+  .site-header__inner { flex-direction: column; align-items: center; gap: 12px; padding: 34px 20px 10px; }
   .ps-mark { justify-content: center; }
   .site-nav { gap: 0; flex-wrap: nowrap; justify-content: space-between; width: 100%; border-top: 1px solid var(--color-rule); padding-top: 10px; }
   .site-nav a { font-size: 13px; white-space: nowrap; }
