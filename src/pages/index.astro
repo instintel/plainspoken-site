@@ -13,13 +13,25 @@ const secondary = rest.slice(0, 4);
 const trending = (await getCollection('trending'))
   .filter((t) => !t.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 4);
+  ;
+// Trending shows the same lead-plus-four layout as Daily Briefs once there are enough pieces
+const TRENDING_FULL = 5;
+const trendingFull = trending.length >= TRENDING_FULL;
+const [trendingLead, ...trendingRest] = trending;
+const trendingMore = trendingRest.slice(0, 4);
+const trendingCards = trending.slice(0, 4);
 
 const commentary = (await getCollection('commentary')).filter((c) => !c.data.draft);
 const explainers = (await getCollection('explainers'))
   .filter((e) => !e.data.draft)
   .sort((a, b) => (b.data.lastmod ?? b.data.date).valueOf() - (a.data.lastmod ?? a.data.date).valueOf())
-  .slice(0, 6);
+  ;
+// Explainers use the same lead-plus-four layout as Daily Briefs. The picture is the page's own
+// image if it has one, otherwise the first image in its body (its chart).
+const picOf = (e: { data: { image?: string }; body: string }) =>
+  e.data.image ?? e.body.match(/!\[[^\]]*\]\((\/images\/[^)\s]+)\)/)?.[1];
+const [expLead, ...expRest] = explainers;
+const expMore = expRest.slice(0, 4);
 
 // The latest Budget series now sits under Explainers, as one link to its page of topics
 const [budgetLatest] = await budgetYears();
@@ -34,13 +46,13 @@ const shortDate = (d: Date) =>
   <h1 class="sr-only">Plainspoken: From Wall Street to Wallet Street, Making Sens of the World's Money</h1>
 
   <div class="container home-main">
-    {trending.length > 0 && (
+    {trending.length > 0 && !trendingFull && (
       <section class="home-section">
         <div class="section-head">
           <span class="eyebrow eyebrow--accent">Trending</span>
         </div>
         <div class="brief-grid brief-grid--fill">
-          {trending.map((t) => (
+          {trendingCards.map((t) => (
             <a href={`/trending/${t.slug}/`} class="brief-card">
               {hasImage(t.data.image) && <img src={t.data.image} alt="" loading="lazy" />}
               <span class="meta-date">{shortDate(t.data.date)}</span>
@@ -52,6 +64,37 @@ const shortDate = (d: Date) =>
           <a href="/trending/" class="back-link">View all Trending →</a>
         </div>
       </section>
+    )}
+
+    {trendingFull && trendingLead && (
+      <>
+        <section class="lead-brief" style="margin-top: 0;">
+          <div style="display: flex; flex-direction: column; gap: var(--space-2);">
+            <span class="eyebrow eyebrow--accent">Trending · {shortDate(trendingLead.data.date)}</span>
+            <h2 class="lead-brief__title"><a href={`/trending/${trendingLead.slug}/`}>{trendingLead.data.title}</a></h2>
+            <p class="lead-brief__summary">{trendingLead.data.summary}</p>
+            <a href={`/trending/${trendingLead.slug}/`} class="button">Read the piece</a>
+          </div>
+          {hasImage(trendingLead.data.image) && (
+            <a href={`/trending/${trendingLead.slug}/`} tabindex="-1" aria-hidden="true">
+              <img src={trendingLead.data.image} alt="" />
+            </a>
+          )}
+        </section>
+        <section class="home-section">
+          <div class="section-head"><span class="eyebrow">More Trending</span></div>
+          <div class="brief-grid">
+            {trendingMore.map((t) => (
+              <a href={`/trending/${t.slug}/`} class="brief-card">
+                {hasImage(t.data.image) && <img src={t.data.image} alt="" loading="lazy" />}
+                <span class="meta-date">{shortDate(t.data.date)}</span>
+                <span class="brief-card__title">{t.data.title}</span>
+              </a>
+            ))}
+          </div>
+          <div style="margin-top: var(--space-3);"><a href="/trending/" class="back-link">View all Trending →</a></div>
+        </section>
+      </>
     )}
 
     {!lead && (
@@ -94,28 +137,42 @@ const shortDate = (d: Date) =>
       </section>
     )}
 
-    {explainers.length > 0 && (
-      <section class="home-section">
-        <div class="section-head">
-          <span class="eyebrow">Explainers</span>
-        </div>
-        <ul class="explainer-list" style="max-width: var(--container-narrow);">
-          {explainers.map((e) => (
-            <li>
-              <a href={`/explainers/${e.slug}/`}>{e.data.title}</a>
-              <p>{e.data.summary}</p>
-            </li>
-          ))}
-        </ul>
-        {budgetLatest && (
-          <p style="margin: var(--space-3) 0 0; max-width: var(--container-narrow);">
-            <a href={`/budget/${budgetLatest.year}/`}>Budget {budgetLatest.year}, for your money</a>: all the topics in one place.
-          </p>
+    {expLead && (
+      <>
+        <section class="lead-brief">
+          <div style="display: flex; flex-direction: column; gap: var(--space-2);">
+            <span class="eyebrow eyebrow--accent">Explainer · {shortDate(expLead.data.lastmod ?? expLead.data.date)}</span>
+            <h2 class="lead-brief__title"><a href={`/explainers/${expLead.slug}/`}>{expLead.data.title}</a></h2>
+            <p class="lead-brief__summary">{expLead.data.summary}</p>
+            <a href={`/explainers/${expLead.slug}/`} class="button">Read the explainer</a>
+          </div>
+          {picOf(expLead) && (
+            <a href={`/explainers/${expLead.slug}/`} tabindex="-1" aria-hidden="true">
+              <img src={picOf(expLead)} alt="" />
+            </a>
+          )}
+        </section>
+        {expMore.length > 0 && (
+          <section class="home-section">
+            <div class="section-head"><span class="eyebrow">More Explainers</span></div>
+            <div class="brief-grid">
+              {expMore.map((e) => (
+                <a href={`/explainers/${e.slug}/`} class="brief-card">
+                  {picOf(e) && <img src={picOf(e)} alt="" loading="lazy" />}
+                  <span class="meta-date">{shortDate(e.data.lastmod ?? e.data.date)}</span>
+                  <span class="brief-card__title">{e.data.title}</span>
+                </a>
+              ))}
+            </div>
+            {budgetLatest && (
+              <p style="margin: var(--space-3) 0 0;">
+                <a href={`/budget/${budgetLatest.year}/`}>Budget {budgetLatest.year}, for your money</a>: all the topics in one place.
+              </p>
+            )}
+            <div style="margin-top: var(--space-3);"><a href="/explainers/" class="back-link">View all explainers →</a></div>
+          </section>
         )}
-        <div style="margin-top: var(--space-3);">
-          <a href="/explainers/" class="back-link">View all explainers →</a>
-        </div>
-      </section>
+      </>
     )}
 
     {commentary.length > 0 && (
