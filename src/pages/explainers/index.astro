@@ -48,9 +48,9 @@ const description =
   jsonLd={ldList(breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Explainers', path: '/explainers/' }]))}
 >
   <div class="container" style="padding-top: var(--space-4);">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Explainers</nav>
+    <a href="/" class="back-link">← Back to Home</a>
   </div>
-  <section class="container prose prose--article" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
+  <section class="container" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
     <span class="eyebrow">Explainers</span>
     <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-2);">Malaysia's Money, Explained</h1>
     <p style="color: var(--color-ink-70); margin: 0 0 var(--space-4);">{description} Each page answers one question first, then shows what it means for you.</p>
@@ -58,7 +58,7 @@ const description =
     {budgetLatest && (
       <a href={`/budget/${budgetLatest.year}/`} class="budget-callout">
         <span class="eyebrow">Budget {budgetLatest.year}</span>
-        <span class="budget-callout__title">Budget {budgetLatest.year}, for your money</span>
+        <span class="budget-callout__title">Budget {budgetLatest.year}, For Your Money</span>
         <span class="budget-callout__text">All {budgetLatest.pages.length} topics in one place: what changes for your tax, pay, cash aid, loans and home.</span>
         <span class="back-link">See all Budget {budgetLatest.year} topics →</span>
       </a>
@@ -102,7 +102,7 @@ const description =
     display: flex;
     flex-direction: column;
     gap: 6px;
-    margin: 0 0 var(--space-5);
+    margin: var(--space-5) 0 var(--space-6);
     padding: var(--space-3);
     border: 1px solid var(--color-rule);
     background: var(--color-raised);
