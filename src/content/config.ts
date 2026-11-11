@@ -61,6 +61,25 @@ const budget = defineCollection({
   }),
 });
 
+// Trending pieces: one gated article on a money topic people are talking about, with a
+// finfacts Reel built from it. The file name is the URL: src/content/trending/2026-11-11-buy-now-pay-later.md
+// is published at /trending/2026-11-11-buy-now-pay-later/ and keeps that address for good.
+// Images live in public/images/trending/YYYY-MM-DD/.
+const trending = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    lastmod: z.date().optional(),
+    summary: z.string(),
+    tags: z.array(z.string()).default([]),
+    author: z.string().optional(),
+    type: z.literal('trending').default('trending'),
+    image: z.string().optional(),
+    draft: z.boolean().default(true),
+  }),
+});
+
 const commentary = defineCollection({
   // L2 — deep commentary, 500-1,200 words, one developed argument
   type: 'content',
@@ -85,6 +104,7 @@ const reports = defineCollection({
 
 export const collections = {
   'daily-briefs': dailyBriefs,
+  trending,
   explainers,
   budget,
   commentary,

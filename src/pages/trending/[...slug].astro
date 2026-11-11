@@ -1,0 +1,70 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import AskBlock from '../../components/AskBlock.astro';
+import { articleLd, breadcrumbLd, ldList } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const allPieces = await getCollection('trending');
+  const published = allPieces
+    .filter((b) => !b.data.draft)
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  return allPieces.map((entry) => {
+    const index = published.findIndex((b) => b.slug === entry.slug);
+    const next = index !== -1 ? published[index + 1] ?? null : null;
+    return {
+      params: { slug: entry.slug },
+      props: { entry, next },
+    };
+  });
+}
+
+const { entry, next } = Astro.props as {
+  entry: CollectionEntry<'trending'>;
+  next: CollectionEntry<'trending'> | null;
+};
+const { Content } = await entry.render();
+const path = `/trending/${entry.slug}/`;
+const image = entry.data.image && (entry.data.image.startsWith('/') || entry.data.image.startsWith('http')) ? entry.data.image : undefined;
+---
+<Base
+  title={entry.data.title}
+  description={entry.data.summary}
+  image={image}
+  ogType="article"
+  publishedTime={entry.data.date}
+  jsonLd={ldList(
+    articleLd({
+      kind: 'NewsArticle',
+      path,
+      title: entry.data.title,
+      description: entry.data.summary,
+      published: entry.data.date,
+      image,
+      author: entry.data.author,
+      keywords: entry.data.tags,
+    }),
+    breadcrumbLd([
+      { name: 'Home', path: '/' },
+      { name: 'Trending', path: '/trending/' },
+      { name: entry.data.title, path },
+    ]),
+  )}
+>
+  <div class="container" style="padding-top: var(--space-4);">
+    <a href="/trending/" class="back-link">← Back to Trending</a>
+  </div>
+  <article class="container prose prose--article" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
+    <span class="eyebrow">Trending · {entry.data.date.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span>
+    <h1 class="display" style="font-size: 32px;">{entry.data.title}</h1>
+    <Content />
+    <AskBlock />
+
+    {next && (
+      <div style="margin-top: var(--space-5); padding-top: var(--space-3); border-top: 1px solid var(--color-rule);">
+        <a href={`/trending/${next.slug}/`} class="back-link">Next: {next.data.title} →</a>
+      </div>
+    )}
+  </article>
+</Base>
