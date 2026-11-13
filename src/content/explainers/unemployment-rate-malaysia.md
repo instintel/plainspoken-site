@@ -2,7 +2,7 @@
 title: "What Malaysia's Unemployment Rate Means, And Who Is Jobless"
 term: "Unemployment Rate"
 date: 2026-11-12
-lastmod: 2026-11-12
+lastmod: 2026-11-13
 summary: "Malaysia's unemployment rate is the share of people working or looking for work who have no job. It was 2.9% in September 2026."
 topic: "Jobs and pay"
 tags: ["malaysia unemployment rate", "kadar pengangguran", "dosm", "labour force survey", "youth unemployment"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Nov 12, 2026*
+*Updated Nov 13, 2026*
 
 Malaysia's unemployment rate is the share of people working or looking for work who have no job, as counted by the Department of Statistics Malaysia (DOSM). In September 2026 it was 2.9%, about 3 in every 100: 513,200 people without work, against 16.89 million with jobs.
 
@@ -33,7 +33,7 @@ Everyone else is outside the labour force and left out of the rate completely. I
 
 ## The Rate Can Look Low While People Still Want Better Work.
 
-Because one hour of work counts as a job, the rate doesn't show whether you have enough hours or a job that fits your studies. DOSM counts those separately, as underemployment: people working under 30 hours a week who want more hours, and people with tertiary education, meaning college or university, working in semi-skilled or low-skilled jobs.
+Because one hour of work counts as a job, the rate doesn't show whether you have enough hours or a job that fits your studies. DOSM counts those separately, as underemployment: people working under 30 hours a week who want more hours, and people with tertiary education, meaning college or university, working in semi-skilled or low-skilled jobs. In July to September 2026 that second group came to 1.96 million people, or 35.0% of working people with tertiary education, more than one in three.
 
 ## The Rate Was 2.9% In September 2026, The Same As August.
 
@@ -54,4 +54,4 @@ The rate was far higher in the pandemic years: 4.5% in 2020, the highest in almo
 - [data.gov.my: Monthly Principal Labour Force Statistics, with release dates](https://data.gov.my/data-catalogue/lfs_month)
 - [Bernama: Putrajaya posts lowest unemployment rate at 1.3 pct in Q3, Nov 11, 2026](https://www.bernama.com/en/general/news.php?id=2632892)
 - [Bernama: Malaysia's unemployment rate dips to 2.9 per cent in August, Oct 9, 2026](https://www.bernama.com/en/general/news.php?id=2617521)
-- [Malay Mail: Malaysia's unemployment rate at 4.5pc in 2020, highest since 1993, Feb 8, 2021](https://www.malaymail.com/news/malaysia/2021/02/08/statistics-dept-malaysias-unemployment-rate-at-4.5pc-in-2020-highest-since/1947995)
+- [OpenDOSM: Quarterly Skills-Related Underemployment, with its definition](https://open.dosm.gov.my/data-catalogue/lfs_qtr_sru_sex)
