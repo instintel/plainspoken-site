@@ -2,7 +2,7 @@
 title: "What Malaysia's Exports Figure Is, And Why It Matters To You"
 term: "Malaysia Exports"
 date: 2026-10-21
-lastmod: 2026-11-20
+lastmod: 2026-11-21
 summary: "Malaysia's exports figure is the value of goods the country sold abroad in a month, published by DOSM. In October 2026 it was RM239.2 billion."
 topic: "The ringgit and trade"
 tags: ["malaysia exports", "eksport malaysia", "malaysia trade surplus", "dosm trade", "e&e exports"]
@@ -11,7 +11,7 @@ type: "explainer"
 draft: false
 ---
 
-*Updated Nov 20, 2026*
+*Updated Nov 21, 2026*
 
 Malaysia's exports figure is the total value of the goods the country sells abroad in a month, the money overseas buyers pay Malaysian firms. In October 2026 it was RM239.2 billion, up 61.1% from RM148.4 billion a year earlier.
 
@@ -27,7 +27,7 @@ Exports are made up of two kinds of goods: those made in Malaysia, and re-export
 
 ## Electrical And Electronic Goods Are The Biggest Part.
 
-They are called [E&E products](/explainers/electronics-exports/). In 2025 they made up 44.3% of Malaysia's exports, or RM711.61 billion, according to MITI. In September 2026 the share was higher, at 51.2%. In October, E&E exports were RM58.5 billion higher than a year earlier, more than any other kind of goods DOSM listed.
+They are called [E&E products](/explainers/electronics-exports/). In 2025 they made up 44.3% of Malaysia's exports, or RM711.61 billion, according to MITI. In October 2026 the share was higher, at 52.5%, the Malaysia External Trade Development Corporation (MATRADE) said. E&E exports were RM58.5 billion higher than a year earlier, more than any other kind of goods DOSM listed.
 
 ## Exports Feed Into Malaysia's Growth Rate.
 
@@ -54,7 +54,7 @@ The figure is in ringgit, so it includes price changes as well as the amount shi
 
 - [DOSM: Monthly External Trade Statistics, October 2026](https://www.dosm.gov.my/portal-main/release-content/monthly-external-trade-statistics-oct2026)
 - [DOSM: Malaysia External Trade Indices, September 2026](https://www.dosm.gov.my/portal-main/release-content/malaysia-external-trade-indices-sep2026)
-- [DOSM: Gross Domestic Product, Third Quarter 2026](https://www.dosm.gov.my/portal-main/release-content/gross-domestic-product-q32026)
+- [MATRADE: October 2026 trade performance, Nov 20, 2026](https://news.marketersmedia.com/october-2026-trade-performance/89210349)
 - [MITI: trade performance, September 2026](https://www.miti.gov.my/miti/resources/Media%20Release/Press_Release_Trade_Performance_Sep2026.pdf)
 - [MITI: trade performance 2025](https://www.miti.gov.my/miti/resources/Media%20Release/Press_Release_Trade_Performance_2025.pdf)
 - [Bernama: Malaysia's trade rises 58 pct to RM436.6 bln in October, Nov 20, 2026](https://www.bernamabiz.com/news.php?id=2637061)
