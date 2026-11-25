@@ -10,18 +10,18 @@ const hasImage = (src?: string) => !!src && (src.startsWith('/') || src.startsWi
 const description = 'The money topics Malaysians are talking about, checked against the real numbers and rules, and what they mean for you.';
 ---
 <Base
-  title="Trending"
+  title="Fintrending"
   description={description}
   jsonLd={ldList(breadcrumbLd([
     { name: 'Home', path: '/' },
-    { name: 'Trending', path: '/trending/' },
+    { name: 'Fintrending', path: '/trending/' },
   ]))}
 >
   <div class="container" style="padding-top: var(--space-4);">
     <a href="/" class="back-link">← Back to Home</a>
   </div>
   <section class="container" style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
-    <span class="eyebrow">Trending</span>
+    <span class="eyebrow">Fintrending</span>
     <h1 class="display" style="font-size: 32px; margin: var(--space-2) 0 var(--space-2);">What people are talking about, checked</h1>
     <p style="color: var(--color-ink-70); margin: 0 0 var(--space-4);">{description}</p>
     <ul style="list-style: none; padding: 0; margin: 0;">

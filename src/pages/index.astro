@@ -49,7 +49,7 @@ const shortDate = (d: Date) =>
     {trending.length > 0 && !trendingFull && (
       <section class="home-section">
         <div class="section-head">
-          <span class="eyebrow eyebrow--accent">Trending</span>
+          <span class="eyebrow eyebrow--accent">Fintrending</span>
         </div>
         <div class="brief-grid brief-grid--fill">
           {trendingCards.map((t) => (
@@ -61,7 +61,7 @@ const shortDate = (d: Date) =>
           ))}
         </div>
         <div style="margin-top: var(--space-3);">
-          <a href="/trending/" class="back-link">View all Trending →</a>
+          <a href="/trending/" class="back-link">View all Fintrending →</a>
         </div>
       </section>
     )}
@@ -70,7 +70,7 @@ const shortDate = (d: Date) =>
       <>
         <section class="lead-brief" style="margin-top: 0;">
           <div style="display: flex; flex-direction: column; gap: var(--space-2);">
-            <span class="eyebrow eyebrow--accent">Trending · {shortDate(trendingLead.data.date)}</span>
+            <span class="eyebrow eyebrow--accent">Fintrending · {shortDate(trendingLead.data.date)}</span>
             <h2 class="lead-brief__title"><a href={`/trending/${trendingLead.slug}/`}>{trendingLead.data.title}</a></h2>
             <p class="lead-brief__summary">{trendingLead.data.summary}</p>
             <a href={`/trending/${trendingLead.slug}/`} class="button">Read the piece</a>
@@ -82,7 +82,7 @@ const shortDate = (d: Date) =>
           )}
         </section>
         <section class="home-section">
-          <div class="section-head"><span class="eyebrow">More Trending</span></div>
+          <div class="section-head"><span class="eyebrow">More Fintrending</span></div>
           <div class="brief-grid">
             {trendingMore.map((t) => (
               <a href={`/trending/${t.slug}/`} class="brief-card">
@@ -92,7 +92,7 @@ const shortDate = (d: Date) =>
               </a>
             ))}
           </div>
-          <div style="margin-top: var(--space-3);"><a href="/trending/" class="back-link">View all Trending →</a></div>
+          <div style="margin-top: var(--space-3);"><a href="/trending/" class="back-link">View all Fintrending →</a></div>
         </section>
       </>
     )}
