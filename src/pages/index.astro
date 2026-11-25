@@ -53,7 +53,7 @@ const shortDate = (d: Date) =>
         </div>
         <div class="brief-grid brief-grid--fill">
           {trendingCards.map((t) => (
-            <a href={`/trending/${t.slug}/`} class="brief-card">
+            <a href={`/fintrending/${t.slug}/`} class="brief-card">
               {hasImage(t.data.image) && <img src={t.data.image} alt="" loading="lazy" />}
               <span class="meta-date">{shortDate(t.data.date)}</span>
               <span class="brief-card__title">{t.data.title}</span>
@@ -61,7 +61,7 @@ const shortDate = (d: Date) =>
           ))}
         </div>
         <div style="margin-top: var(--space-3);">
-          <a href="/trending/" class="back-link">View all Fintrending →</a>
+          <a href="/fintrending/" class="back-link">View all Fintrending →</a>
         </div>
       </section>
     )}
@@ -71,12 +71,12 @@ const shortDate = (d: Date) =>
         <section class="lead-brief" style="margin-top: 0;">
           <div style="display: flex; flex-direction: column; gap: var(--space-2);">
             <span class="eyebrow eyebrow--accent">Fintrending · {shortDate(trendingLead.data.date)}</span>
-            <h2 class="lead-brief__title"><a href={`/trending/${trendingLead.slug}/`}>{trendingLead.data.title}</a></h2>
+            <h2 class="lead-brief__title"><a href={`/fintrending/${trendingLead.slug}/`}>{trendingLead.data.title}</a></h2>
             <p class="lead-brief__summary">{trendingLead.data.summary}</p>
-            <a href={`/trending/${trendingLead.slug}/`} class="button">Read the piece</a>
+            <a href={`/fintrending/${trendingLead.slug}/`} class="button">Read the piece</a>
           </div>
           {hasImage(trendingLead.data.image) && (
-            <a href={`/trending/${trendingLead.slug}/`} tabindex="-1" aria-hidden="true">
+            <a href={`/fintrending/${trendingLead.slug}/`} tabindex="-1" aria-hidden="true">
               <img src={trendingLead.data.image} alt="" />
             </a>
           )}
@@ -85,14 +85,14 @@ const shortDate = (d: Date) =>
           <div class="section-head"><span class="eyebrow">More Fintrending</span></div>
           <div class="brief-grid">
             {trendingMore.map((t) => (
-              <a href={`/trending/${t.slug}/`} class="brief-card">
+              <a href={`/fintrending/${t.slug}/`} class="brief-card">
                 {hasImage(t.data.image) && <img src={t.data.image} alt="" loading="lazy" />}
                 <span class="meta-date">{shortDate(t.data.date)}</span>
                 <span class="brief-card__title">{t.data.title}</span>
               </a>
             ))}
           </div>
-          <div style="margin-top: var(--space-3);"><a href="/trending/" class="back-link">View all Fintrending →</a></div>
+          <div style="margin-top: var(--space-3);"><a href="/fintrending/" class="back-link">View all Fintrending →</a></div>
         </section>
       </>
     )}

@@ -25,7 +25,7 @@ const { entry, next } = Astro.props as {
   next: CollectionEntry<'trending'> | null;
 };
 const { Content } = await entry.render();
-const path = `/trending/${entry.slug}/`;
+const path = `/fintrending/${entry.slug}/`;
 const image = entry.data.image && (entry.data.image.startsWith('/') || entry.data.image.startsWith('http')) ? entry.data.image : undefined;
 ---
 <Base
@@ -47,13 +47,13 @@ const image = entry.data.image && (entry.data.image.startsWith('/') || entry.dat
     }),
     breadcrumbLd([
       { name: 'Home', path: '/' },
-      { name: 'Fintrending', path: '/trending/' },
+      { name: 'Fintrending', path: '/fintrending/' },
       { name: entry.data.title, path },
     ]),
   )}
 >
   <div class="container" style="padding-top: var(--space-4);">
-    <a href="/trending/" class="back-link">← Back to Fintrending</a>
+    <a href="/fintrending/" class="back-link">← Back to Fintrending</a>
   </div>
   <article class="container prose prose--article" style="padding-top: var(--space-6); padding-bottom: var(--space-6);">
     <span class="eyebrow">Fintrending · {entry.data.date.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span>
@@ -63,7 +63,7 @@ const image = entry.data.image && (entry.data.image.startsWith('/') || entry.dat
 
     {next && (
       <div style="margin-top: var(--space-5); padding-top: var(--space-3); border-top: 1px solid var(--color-rule);">
-        <a href={`/trending/${next.slug}/`} class="back-link">Next: {next.data.title} →</a>
+        <a href={`/fintrending/${next.slug}/`} class="back-link">Next: {next.data.title} →</a>
       </div>
     )}
   </article>

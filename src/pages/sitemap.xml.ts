@@ -28,9 +28,9 @@ export const GET: APIRoute = async () => {
     }
     const trending = (await getCollection('trending')).filter((t) => !t.data.draft);
     if (trending.length) {
-      urls.push({ loc: absoluteUrl('/trending/')!, lastmod: latest(trending.map((t) => t.data.lastmod ?? t.data.date)) });
+      urls.push({ loc: absoluteUrl('/fintrending/')!, lastmod: latest(trending.map((t) => t.data.lastmod ?? t.data.date)) });
       for (const t of trending) {
-        urls.push({ loc: absoluteUrl(`/trending/${t.slug}/`)!, lastmod: day(t.data.lastmod ?? t.data.date) });
+        urls.push({ loc: absoluteUrl(`/fintrending/${t.slug}/`)!, lastmod: day(t.data.lastmod ?? t.data.date) });
       }
     }
     const budget = (await getCollection('budget')).filter((p) => !p.data.draft);

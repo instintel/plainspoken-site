@@ -21,7 +21,7 @@ One is a Singapore cloud company at the centre of the Nvidia probe, and the othe
 
 For these seven, anyone sending them anything covered by US export rules now needs a US licence, and each application starts from a presumption that it will be refused.
 
-Nvidia is the biggest maker of the chips that run AI. Its boss, Jensen Huang, quit on Nov 12 after reports of an affair with a former executive of that Singapore company, whom US officials suspect of spying for China. China has called the spying accusations groundless. Nvidia [reinstated him](/trending/2026-11-23-jensen-huang-returns/) on Monday, the day of the listing.
+Nvidia is the biggest maker of the chips that run AI. Its boss, Jensen Huang, quit on Nov 12 after reports of an affair with a former executive of that Singapore company, whom US officials suspect of spying for China. China has called the spying accusations groundless. Nvidia [reinstated him](/fintrending/2026-11-23-jensen-huang-returns/) on Monday, the day of the listing.
 
 The Singapore company said last week that it does legitimate business and follows US export controls, Reuters reported.
 
