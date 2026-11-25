@@ -1,0 +1,2 @@
+/trending /fintrending 301
+/trending/* /fintrending/:splat 301

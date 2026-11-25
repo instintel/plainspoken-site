@@ -11,7 +11,7 @@ draft: false
 
 *2-minute read*
 
-Nvidia's board has brought Jensen Huang back as chief executive, 11 days after [he quit](/trending/2026-11-14-jensen-huang/) and six days after it said it did not intend to.
+Nvidia's board has brought Jensen Huang back as chief executive, 11 days after [he quit](/fintrending/2026-11-14-jensen-huang/) and six days after it said it did not intend to.
 
 ![Close-up of a green printed circuit board, with thin gold tracks running between rows of small round solder points.](/images/trending/2026-11-23/photo-jensen-huang-returns-2026-11-23.jpg)
 

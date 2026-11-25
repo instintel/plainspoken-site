@@ -21,4 +21,4 @@ Investing overseas means buying shares, bonds and other assets in other countrie
 
 Some of the money already has its passport stamped. From July to September, EPF's overseas investments earned RM13.68 billion, or 53% of the quarter's investment income, EPF said this month.
 
-Overall, though, EPF's [income](/trending/2026-11-17-epf/) is growing more slowly. It grew just 3% that quarter from a year earlier, and he said then that he expects the slowdown to continue to the end of the year.
+Overall, though, EPF's [income](/fintrending/2026-11-17-epf/) is growing more slowly. It grew just 3% that quarter from a year earlier, and he said then that he expects the slowdown to continue to the end of the year.

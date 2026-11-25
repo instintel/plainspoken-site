@@ -65,7 +65,7 @@ const budget = defineCollection({
 
 // Trending pieces: one gated article on a money topic people are talking about, with a
 // finfacts Reel built from it. The file name is the URL: src/content/trending/2026-11-11-buy-now-pay-later.md
-// is published at /trending/2026-11-11-buy-now-pay-later/ and keeps that address for good.
+// is published at /fintrending/2026-11-11-buy-now-pay-later/ and keeps that address for good.
 // Images live in public/images/trending/YYYY-MM-DD/.
 const trending = defineCollection({
   type: 'content',
