@@ -15,7 +15,7 @@ The Securities Commission Malaysia (SC) told The Star that trading crypto on a p
 
 ![Two hands holding a white smartphone with a blank blue screen.](/images/trending/2026-11-25/photo-crypto-exchanges-2026-11-25.jpg)
 
-Exchanges are the apps and websites where people buy and sell cryptocurrencies such as Bitcoin. A platform licensed in another country still needs the SC's approval before it can operate here, the SC said, and one that's still applying counts as unregistered. So joining the queue doesn't count as getting in.
+Exchanges are the apps and websites where people buy and sell cryptocurrencies such as Bitcoin. The five on the SC's register, as of July 20, are HATA Digital, Luno Malaysia, MX Global, SINEGY DAX and Kinetic DAX. A platform licensed in another country still needs the SC's approval before it can operate here, the SC said, and one that's still applying counts as unregistered. So joining the queue doesn't count as getting in.
 
 The SC's Investor Alert List includes Binance, the world's biggest crypto exchange, for operating a digital asset exchange without registration, and the SC took enforcement action against it in July 2021. The Star's questions followed a hack at Binance last month involving about US$6.3 billion.
 
